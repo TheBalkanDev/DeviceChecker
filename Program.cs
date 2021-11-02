@@ -51,7 +51,7 @@ public class Program
                Console.WriteLine("128 GB");
                break;
  
-        Console.WriteLine("Analyse: Ihr iPhone ist das " + iphone + " und es hat " + speicher + " Gigabyte");
+        Console.WriteLine("Analyse: Ihr Smartphone ist das " + iphone + " und es hat " + speicher + " Gigabyte");
         }
     }
 }
