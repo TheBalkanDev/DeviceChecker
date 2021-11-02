@@ -55,6 +55,11 @@ public class Program
                 Console.WriteLine("Error";
                 break;
         }
+                                  
+     Console.WriteLine("Lässt sich das Gerät einwandfrei nutzen?");
+     string funktion = Console.ReadLine();
+                                  
+                       
  
         Console.WriteLine("Analyse: Ihr Smartphone ist das " + iphone + " und es hat " + speicher + " Gigabyte");
         }
