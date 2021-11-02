@@ -43,15 +43,19 @@ public class Program
              Console.WriteLine("32 GB");
                 break;
                 
-          case 64
+            case 64:
              Console.WriteLine("64 GB");
              break;
                 
            case 128:
                Console.WriteLine("128 GB");
                break;
+                
+            default:
+                Console.WriteLine("Error";
+                break;
+        }
  
         Console.WriteLine("Analyse: Ihr Smartphone ist das " + iphone + " und es hat " + speicher + " Gigabyte");
         }
     }
-}
