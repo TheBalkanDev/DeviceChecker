@@ -12,12 +12,12 @@ public class Program
         {
             case "iPhone4s":
              Console.WriteLine("iPhone 4s!");
-             wert = 27;
+             wert = 25;
              break;
                 
             case "iPhone6s":
                 Console.WriteLine("iPhone 6s!");
-                wert = 90;
+                wert = 85;
                 break;
                 
             case "SamsungS4":
