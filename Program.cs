@@ -12,22 +12,22 @@ public class Program
         {
             case "iPhone4s":
              Console.WriteLine("iPhone 4s!");
-             wert = 25;
+             wert = 27;
              break;
                 
             case "iPhone6s":
                 Console.WriteLine("iPhone 6s!");
-                wert = 80;
+                wert = 90;
                 break;
                 
             case "SamsungS4":
                 Console.WriteLine("Samsung S4!");
-                wert = 25;
+                wert = 30;
                 break;
                 
              case "SamsungS6":
                 Console.WriteLine("Samsung S6!");
-                wert = 75;
+                wert = 80;
                 break;
                 
             default:
@@ -82,6 +82,14 @@ public class Program
            funktion2 = false;
            break;
            
+         Console.WriteLine("Sind Kratzer/Gebrauchsspuren am Gerät oder am Display zu erkennen?");
+         string kratzer = Console.ReadLine()
+             
+          switch(kratzer)
+          {
+              case "Viele":
+               
+         // Ende
         Console.WriteLine("Analyse: Ihr Smartphone ist das " + iphone + " und es hat " + speicher + " Gigabyte. Der wert beträgt" + zwischenergebnis + " Euro!");
         }
     }
