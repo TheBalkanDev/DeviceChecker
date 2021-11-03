@@ -37,7 +37,6 @@ public class Program
         
         Console.WriteLine("Wie viel Speicherplatz hat das Gerät?");
         int speicher = Console.ReadLine();
-        
         double zwischenergebniss;
         
         switch(speicher)
@@ -50,7 +49,7 @@ public class Program
          case 32:
              Console.WriteLine("32 GB");
              zwischenergebniss = wert;
-                break;
+             break;
                 
             case 64:
              Console.WriteLine("64 GB");
