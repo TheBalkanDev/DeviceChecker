@@ -9,9 +9,16 @@
 - [X] Open Source
 - [X] Dev Friendly
 - [X] Windows Support
-- [X] Linux Support
+- [ ] Linux Support
 - [X] Zukunftssicher
 
-## Links
+## To Do
+- [ ] Code fertigstellen
+- [ ] WPF GUI
+- [ ] Download
+- [ ] Code Cleenup
+- [ ] Wiki
+- [ ] Linux
+- [ ] Mobile Version (iOS, Android)
 
 
