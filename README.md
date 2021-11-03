@@ -18,7 +18,7 @@
 - [ ] Download
 - [ ] Code Cleenup
 - [ ] Wiki
-- [ ] Linux
-- [ ] Mobile Version (iOS, Android)
+- [ ] Linux Support
+- [ ] Xamarin (iOS, Android, Mac, Windows)
 
 
