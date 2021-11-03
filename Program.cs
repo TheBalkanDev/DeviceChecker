@@ -4,7 +4,7 @@ public class Program
 {
     public static void Main()
     {
-        int wert;
+        double wert;
         Console.WriteLine("Welches Smartphone wollen Sie verkaufen?");
         string handy = Console.ReadLine();
         
@@ -38,7 +38,7 @@ public class Program
         Console.WriteLine("Wie viel Speicherplatz hat das Gerät?");
         int speicher = Console.ReadLine();
         
-        int zwischenergebniss;
+        double zwischenergebniss;
         
         switch(speicher)
         {
@@ -69,9 +69,20 @@ public class Program
                                   
      Console.WriteLine("Lässt sich das Gerät einwandfrei nutzen?");
      string funktion = Console.ReadLine();
+     bool funktion;
                                   
-                       
- 
-        Console.WriteLine("Analyse: Ihr Smartphone ist das " + iphone + " und es hat " + speicher + " Gigabyte");
+       switch(funktion)
+       {    
+           case "Ja":
+           Console.WtiteLine("Ja");
+           funktion2 = true;
+           break;
+           
+           case "Nein";
+           Console.WriteLine("Nein");
+           funktion2 = false;
+           break;
+           
+        Console.WriteLine("Analyse: Ihr Smartphone ist das " + iphone + " und es hat " + speicher + " Gigabyte. Der wert beträgt" + zwischenergebnis + " Euro!");
         }
     }
