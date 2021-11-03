@@ -4,6 +4,7 @@ public class Program
 {
     public static void Main()
     {
+        int wert;
         Console.WriteLine("Welches Smartphone wollen Sie verkaufen?");
         string handy = Console.ReadLine();
         
@@ -11,18 +12,22 @@ public class Program
         {
             case "iPhone4s":
              Console.WriteLine("iPhone 4s!");
-                break;
+             wert = 25;
+             break;
                 
             case "iPhone6s":
                 Console.WriteLine("iPhone 6s!");
+                wert = 80;
                 break;
                 
             case "SamsungS4":
                 Console.WriteLine("Samsung S4!");
+                wert = 25;
                 break;
                 
              case "SamsungS6":
                 Console.WriteLine("Samsung S6!");
+                wert = 75;
                 break;
                 
             default:
@@ -33,22 +38,28 @@ public class Program
         Console.WriteLine("Wie viel Speicherplatz hat das Gerät?");
         int speicher = Console.ReadLine();
         
+        int zwischenergebniss;
+        
         switch(speicher)
         {
         case 16:
            Console.WriteLine("16 GB");
+           zwischenergebniss = wert;
            break;
               
          case 32:
              Console.WriteLine("32 GB");
+             zwischenergebniss = wert;
                 break;
                 
             case 64:
              Console.WriteLine("64 GB");
+             zwischenergebniss = wert + 5;
              break;
                 
            case 128:
                Console.WriteLine("128 GB");
+               zwischenergebniss = wert + 10;
                break;
                 
             default:
