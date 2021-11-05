@@ -14,7 +14,6 @@
 
 ## To Do
 - [ ] Code fertigstellen
-- [ ] WPF GUI
 - [ ] Download
 - [ ] Code Cleenup
 - [ ] Wiki
