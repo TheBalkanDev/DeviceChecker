@@ -91,5 +91,7 @@ public class Program
                
          // Ende
         Console.WriteLine("Analyse: Ihr Smartphone ist das " + iphone + " und es hat " + speicher + " Gigabyte. Der wert beträgt" + zwischenergebnis + " Euro!");
+          }
         }
-    }
+     }
+  }
