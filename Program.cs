@@ -142,6 +142,9 @@ public class Programj
                   
               Console.WriteLine();
               break;
+                  
+              default:
+              Console.WriteLine("Error")
           }
            
         Console.WriteLine("Analyse: Ihr Smartphone ist das " + handy + " und es hat " + speicher + " Gigabyte. Der wert beträgt" + wert + " Euro!");
