@@ -1,6 +1,6 @@
 using System;
 
-public class Program
+public class Programj
 {
     public static void Main()
     {
@@ -16,7 +16,7 @@ public class Program
             case "i phone 4s":
             case "iPhone 4s":
             case  "iPhone4S":
-            caee "iPhone 4S":
+            case "iPhone 4S":
             case "i Phone 4S":
                 
             Console.WriteLine("Ihr Gerät: iPhone 4s!");
@@ -29,7 +29,7 @@ public class Program
             case "i phone 6s":
             case "iPhone 6s":
             case "iPhone6S":
-            caee "iPhone 6S":
+            case "iPhone 6S":
             case "i Phone 6S":
                 
                 Console.WriteLine("Ihr Gerät: Phone 6s!");
@@ -42,7 +42,7 @@ public class Program
             case "Samsung S4":
             case "Galaxy S4":
             case "GalaxyS4":
-            caee "Galaxy s4":
+            case "Galaxy s4":
             case "Samsung Galaxy S4":
                 
                 Console.WriteLine("Ihr Gerät: Samsung Galaxy S4!");
@@ -97,7 +97,7 @@ public class Program
         case "64 gb":
                 
         Console.WriteLine("Ihr Speicher: 64 GB");
-        wert = wert + 5;
+        wert = + 5;
         break;
                 
         case "128":
@@ -123,7 +123,7 @@ public class Program
            case "Ja":
            case "ja":
            
-           Console.WtiteLine("Alles klar");
+           Console.WriteLine("Alles klar");
            break;
            
            case "Nein":
@@ -144,6 +144,6 @@ public class Program
               break;
           }
            
-        Console.WriteLine("Analyse: Ihr Smartphone ist das " + iphone + " und es hat " + speicher + " Gigabyte. Der wert beträgt" + zwischenergebnis + " Euro!");
+        Console.WriteLine("Analyse: Ihr Smartphone ist das " + handy + " und es hat " + speicher + " Gigabyte. Der wert beträgt" + zwischenergebnis + " Euro!");
           }
         }
