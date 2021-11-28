@@ -42,7 +42,6 @@ public class Programj
             case "Samsung S4":
             case "Galaxy S4":
             case "GalaxyS4":
-            case "Galaxy s4":
             case "Samsung Galaxy S4":
                 
                 Console.WriteLine("Ihr Gerät: Samsung Galaxy S4!");
@@ -133,7 +132,7 @@ public class Programj
            break;
            
          Console.WriteLine("Sind Kratzer/Gebrauchsspuren am Gerät oder am Display zu erkennen?");
-         string kratzer = Console.ReadLine()
+         string kratzer = Console.ReadLine();
              
           switch(kratzer)
           {
