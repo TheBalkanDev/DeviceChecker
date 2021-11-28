@@ -11,21 +11,53 @@ public class Program
         switch(handy)
         {
             case "iPhone4s":
-             Console.WriteLine("iPhone 4s!");
+            case "iphone4s":
+            case "iphone 4S":
+            case "i phone 4s":
+            case "iPhone 4s":
+            case  "iPhone4S":
+            caee "iPhone 4S":
+            case "i Phone 4S":
+                
+            Console.WriteLine("Ihr Gerät: iPhone 4s!");
              wert = 25;
              break;
                 
             case "iPhone6s":
-                Console.WriteLine("iPhone 6s!");
+            case "iphone6s":
+            case "iphone 6s":
+            case "i phone 6s":
+            case "iPhone 6s":
+            case "iPhone6S":
+            caee "iPhone 6S":
+            case "i Phone 6S":
+                
+                Console.WriteLine("Ihr Gerät: Phone 6s!");
                 wert = 85;
                 break;
                 
             case "SamsungS4":
-                Console.WriteLine("Samsung S4!");
+            case "Galaxy s4":
+            case "samsung s4":
+            case "Samsung S4":
+            case "Galaxy S4":
+            case "GalaxyS4":
+            caee "Galaxy s4":
+            case "Samsung Galaxy S4":
+                
+                Console.WriteLine("Ihr Gerät: Samsung Galaxy S4!");
                 wert = 30;
                 break;
                 
-             case "SamsungS6":
+            case "SamsungS6":
+            case "Galaxy s6":
+            case "samsung s6":
+            case "Samsung S6":
+            case "Galaxy S6":
+            case "GalaxyS6":
+            caee "Galaxy s6":
+            case "Samsung Galaxy S6":
+                
                 Console.WriteLine("Samsung S6!");
                 wert = 80;
                 break;
