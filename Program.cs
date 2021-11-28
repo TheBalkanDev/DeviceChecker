@@ -116,7 +116,7 @@ public class Programj
      }
                                   
      Console.WriteLine("Lässt sich das Gerät einwandfrei nutzen?");
-     string funktion = Console.ReadLine():
+     string funktion = Console.ReadLine();
                                   
        switch(funktion)
        {    
