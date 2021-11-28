@@ -106,7 +106,7 @@ public class Programj
         case "128 gb":
                 
         Console.WriteLine("Ihr Speicher: 128 GB");
-        wert = wert + 10;
+        wert = + 10;
         break;
                 
        default:
@@ -122,13 +122,14 @@ public class Programj
            case "Ja":
            case "ja":
            
-           Console.WriteLine("Alles klar");
+           Console.WriteLine("Das Gerät lasst sich einwandfrei nutzen!");
            break;
            
            case "Nein":
            case "nein":
            
-           Console.WriteLine("Alles klar");
+           wert = 0.50 * wert;
+           Console.WriteLine("Das Gerät lässt sich nicht einwandfrei nutzen!");
            break;
            
          Console.WriteLine("Sind Kratzer/Gebrauchsspuren am Gerät oder am Display zu erkennen?");
