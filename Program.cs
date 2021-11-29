@@ -142,8 +142,7 @@ public class Programj
        }
         
          Console.WriteLine("Ist der Bildschirm heil und ohne Schäden?");
-         Console.WriteLine("Von einer Scala von 1-3");
-         Console.WriteLine("1 = Top, 2 = bischen beschädigt, 3 = Display sehr beschädigt");
+         Console.WriteLine("Option: Ja oder nein");
          string display = Console.ReadLine();
              
           switch(display)
