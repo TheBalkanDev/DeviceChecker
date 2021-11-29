@@ -165,11 +165,46 @@ public class Programj
             Console.WriteLine("Syntax Error");
             break;
           }
+        
+        Console.WriteLine("Sind Kratzer/Gebrauchsspuren am Gerät oder am Display zu erkennen?");
+        Console.WriteLine("Optionen: Nein, Schwer zu erkennen, Klar zu erkennen");
+        Console.WriteLine("Oder 1, 2 oder 3");
+        string gebrauchsspuren = Console.ReadLine();
+        
+        switch(gebrauchsspuren)
+        {
+            case "Nein":
+            case "nein":
+            case "1":
+                
+          Console.WriteLine("Es sind keine Kratzer/Gebrauchsspuren am Gerät oder am Display zu erkennen!");
+          break;
+                
+            case "Schwer zu erkennen":
+            case "schwer zu erkennen":
+            case "2":
+            
+             wert = -2;
+            Console.WriteLine(Kratzer/Gebrauchsspuren am Gerät oder am Display sind schwer zu erkennen!);
+            break;
+                
+            case "Klar zu erkennen":
+            case "klar zu erkennen":
+            case "3":
+            
+           wert = -5;
+           Console.WriteLine("Kratzer/Gebrauchsspuren am Gerät oder am Display sind klar zu erkennen!");
+           break;
            
-        if(function == true)
+            default:
+            Console.WriteLine("Syntax Error!");
+            break;
+        }
+        
+       if(function == true)
         {
             string function2 = "einwahnfrei";
-        }
+           {
         else if(function == false)
          }
             function2 = "nicht";
@@ -180,4 +215,3 @@ public class Programj
         Console.WriteLine("Gerät lässt sich + function2 + "nutzen");
           }
         }
-""
