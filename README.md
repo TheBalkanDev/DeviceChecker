@@ -30,5 +30,5 @@ Alle Fearures aus der To Do werden erst mit der 1.0.0 Vollsersion verfügbar sei
 - [ ] Samsung Galaxy S Modelle
 - [ ] Samsung Galaxy A, J  und M Modelle
 - [ ] Samsung Note, Fold und Flip Modelle
+- [ ] Huawei P und Mate Modelle
 
-// 
