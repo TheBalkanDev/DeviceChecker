@@ -116,13 +116,17 @@ public class Programj
                                   
      Console.WriteLine("Lässt sich das Gerät einwandfrei nutzen?");
      string funktion = Console.ReadLine();
-                                  
+     bool function;
+     string function2;
+        
        switch(funktion)
        {    
            case "Ja":
            case "ja":
            
            Console.WriteLine("Das Gerät lasst sich einwandfrei nutzen!");
+           boolfunction = true;
+            
            break;
            
            case "Nein":
@@ -163,6 +167,18 @@ public class Programj
             break;
           }
            
+        if(function == true)
+        {
+            string function2 = "einwahnfrei";
+        }
+        else if(function == false)
+         }
+            function2 = "nicht";
+         {
+
         Console.WriteLine("Analyse für" + handy + " !");
+        Console.WriteLine("Speicherplatz" + speicher + "Gigabyte");
+        Console.WriteLine("Gerät lässt sich + function2 + "nutzen");
           }
         }
+""
