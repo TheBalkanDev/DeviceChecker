@@ -142,20 +142,22 @@ public class Programj
              
           switch(display)
           {
-              case "1":
-              case "eins":
+              case "Ja":
+              case "ja":
                   
               Console.WriteLine("Das Display ist in einem Top zustand!");
               wert = + 2;
               break;
                   
-              case "2":
-              case "zwei":
+              case "Nein":
+              case "nein":
+              
+             Console.WriteLine("Der Bildschirm ist nicht heil und und/oder hat Schäden");
+             wert = - 6
+             break;  
                   
-              break;  
-                  
-              default:
-              Console.WriteLine("Error")
+            default:
+            Console.WriteLine("Syntax Error")
           }
            
         Console.WriteLine("Analyse: Ihr Smartphone ist das " + handy + " und es hat " + speicher + " Gigabyte. Der wert beträgt" + wert + " Euro!");
