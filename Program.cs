@@ -128,7 +128,7 @@ public class Programj
            case "Nein":
            case "nein":
            
-           wert = 0.50 * wert;
+           wert = 0.5 * wert;
            Console.WriteLine("Das Gerät lässt sich nicht einwandfrei nutzen!");
            break;
            
@@ -155,7 +155,7 @@ public class Programj
               case "nein":
               
              Console.WriteLine("Der Bildschirm ist nicht heil und und/oder hat Schäden");
-             wert = - 6
+             wert = -6;
              break;  
                   
             default:
