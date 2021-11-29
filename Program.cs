@@ -134,7 +134,9 @@ public class Programj
            
            default: 
            Console.WriteLine("Syntax Error!");
-           
+           break;
+       }
+        
          Console.WriteLine("Ist der Bildschirm heil und ohne Schäden?");
          Console.WriteLine("Von einer Scala von 1-3");
          Console.WriteLine("1 = Top, 2 = bischen beschädigt, 3 = Display sehr beschädigt");
@@ -157,7 +159,8 @@ public class Programj
              break;  
                   
             default:
-            Console.WriteLine("Syntax Error")
+            Console.WriteLine("Syntax Error");
+            break;
           }
            
         Console.WriteLine("Analyse für" + handy + " !");
