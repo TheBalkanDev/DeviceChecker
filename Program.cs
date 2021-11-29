@@ -132,16 +132,27 @@ public class Programj
            Console.WriteLine("Das Gerät lässt sich nicht einwandfrei nutzen!");
            break;
            
-         Console.WriteLine("Sind Kratzer/Gebrauchsspuren am Gerät oder am Display zu erkennen?");
-         string kratzer = Console.ReadLine();
+           default: 
+           Console.WriteLine("Syntax Error!");
+           
+         Console.WriteLine("Ist der Bildschirm heil und ohne Schäden?");
+         Console.WriteLine("Von einer Scala von 1-3");
+         Console.WriteLine("1 = Top, 2 = bischen beschädigt, 3 = Display sehr beschädigt");
+         string display = Console.ReadLine();
              
-          switch(kratzer)
+          switch(display)
           {
-              case "Viele":
-              case "viele":
+              case "1":
+              case "eins":
                   
-              Console.WriteLine();
+              Console.WriteLine("Das Display ist in einem Top zustand!");
+              wert = + 2;
               break;
+                  
+              case "2":
+              case "zwei":
+                  
+              break;  
                   
               default:
               Console.WriteLine("Error")
