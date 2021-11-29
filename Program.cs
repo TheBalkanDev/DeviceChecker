@@ -160,6 +160,6 @@ public class Programj
             Console.WriteLine("Syntax Error")
           }
            
-        Console.WriteLine("Analyse: Ihr Smartphone ist das " + handy + " und es hat " + speicher + " Gigabyte. Der wert beträgt" + wert + " Euro!");
+        Console.WriteLine("Analyse für" + handy + " !");
           }
         }
