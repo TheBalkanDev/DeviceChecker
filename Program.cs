@@ -54,7 +54,7 @@ public class Programj
             case "Samsung S6":
             case "Galaxy S6":
             case "GalaxyS6":
-            caee "Galaxy s6":
+            case "Galaxys6":
             case "Samsung Galaxy S6":
                 
                 Console.WriteLine("Samsung S6!");
@@ -125,7 +125,7 @@ public class Programj
            case "ja":
            
            Console.WriteLine("Das Gerät lasst sich einwandfrei nutzen!");
-           boolfunction = true;
+           function = true;
             
            break;
            
@@ -185,7 +185,7 @@ public class Programj
             case "2":
             
              wert = -2;
-            Console.WriteLine(Kratzer/Gebrauchsspuren am Gerät oder am Display sind schwer zu erkennen!);
+            Console.WriteLine("Kratzer/Gebrauchsspuren am Gerät oder am Display sind schwer zu erkennen!");
             break;
                 
             case "Klar zu erkennen":
@@ -201,17 +201,17 @@ public class Programj
             break;
         }
         
-       if(function == true)
+       if (function = true)
         {
             string function2 = "einwahnfrei";
        }
         else if(function == false)
         {
             function2 = "nicht";
-         {
+        }
 
         Console.WriteLine("Analyse für" + handy + " !");
         Console.WriteLine("Speicherplatz" + speicher + "Gigabyte");
-        Console.WriteLine("Gerät lässt sich + function2 + "nutzen");
+        Console.WriteLine("Gerät lässt sich" + function2 + "nutzen");
           }
         }
