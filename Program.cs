@@ -204,9 +204,9 @@ public class Programj
        if(function == true)
         {
             string function2 = "einwahnfrei";
-           {
+       }
         else if(function == false)
-         }
+        {
             function2 = "nicht";
          {
 
