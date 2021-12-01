@@ -10,6 +10,7 @@ public class Program
         
         switch(handy)
         {
+            case "Iphone 4s":
             case "iPhone4s":
             case "iphone4s":
             case "iphone 4S":
