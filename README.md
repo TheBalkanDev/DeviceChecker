@@ -11,9 +11,10 @@
 - [X] Zukunftssicher
 
 ## To Do
-- [ ] Code fertigstellen
-- [ ] Bessere Analyse am Ende.
+- [X] Code fertigstellen
+- [X] Bessere Analyse am Ende
 - [ ] Code Cleenup
+- [ ] Mehrere Faktoren und mehr switch cases
 - [ ] Wiki
 - [ ] Linux Support
 - [ ] Xamarin (iOS, Android, Mac, Windows)
@@ -21,6 +22,7 @@
 ## Release?
 
 **Die Version 0.0.1 wird bis zum 17.12.21 veröffentlicht werden.**
+Release Notes: 
 
 Alle Fearures aus der To Do werden erst mit der 1.0.0 Vollsersion verfügbar sein, der Release Termin ist noch unbekannt.
 
@@ -31,4 +33,5 @@ Alle Fearures aus der To Do werden erst mit der 1.0.0 Vollsersion verfügbar sei
 - [ ] Samsung Galaxy A, J  und M Modelle
 - [ ] Samsung Note, Fold und Flip Modelle
 - [ ] Huawei P und Mate Modelle
+- [ ] One Plus Modells 
 
