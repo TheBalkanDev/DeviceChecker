@@ -1,10 +1,10 @@
 using System;
 
-public class Programj
+public class Program
 {
     public static void Main()
     {
-        double wert;
+        double wert = 0;
         Console.WriteLine("Welches Smartphone wollen Sie verkaufen?");
         string handy = Console.ReadLine();
         
@@ -96,7 +96,7 @@ public class Programj
         case "64 gb":
                 
         Console.WriteLine("Ihr Speicher: 64 GB");
-        wert = + 5;
+        wert = wert + 5;
         break;
                 
         case "128":
@@ -106,7 +106,7 @@ public class Programj
         case "128 gb":
                 
         Console.WriteLine("Ihr Speicher: 128 GB");
-        wert = + 10;
+        wert = wert + 10;
         break;
                 
        default:
@@ -116,17 +116,13 @@ public class Programj
                                   
      Console.WriteLine("Lässt sich das Gerät einwandfrei nutzen?");
      string funktion = Console.ReadLine();
-     bool function;
-     string function2;
-        
+
        switch(funktion)
        {    
            case "Ja":
            case "ja":
            
            Console.WriteLine("Das Gerät lasst sich einwandfrei nutzen!");
-           function = true;
-            
            break;
            
            case "Nein":
@@ -151,14 +147,14 @@ public class Programj
               case "ja":
                   
               Console.WriteLine("Das Display ist in einem Top zustand!");
-              wert = + 2;
+              wert = wert + 2;
               break;
                   
               case "Nein":
               case "nein":
               
              Console.WriteLine("Der Bildschirm ist nicht heil und und/oder hat Schäden");
-             wert = -6;
+             wert = wert - 6;
              break;  
                   
             default:
@@ -184,7 +180,7 @@ public class Programj
             case "schwer zu erkennen":
             case "2":
             
-             wert = -2;
+            wert = wert - 2;
             Console.WriteLine("Kratzer/Gebrauchsspuren am Gerät oder am Display sind schwer zu erkennen!");
             break;
                 
@@ -192,7 +188,7 @@ public class Programj
             case "klar zu erkennen":
             case "3":
             
-           wert = -5;
+           wert = wert - 5;
            Console.WriteLine("Kratzer/Gebrauchsspuren am Gerät oder am Display sind klar zu erkennen!");
            break;
            
@@ -201,17 +197,8 @@ public class Programj
             break;
         }
         
-       if (function = true)
-        {
-            string function2 = "einwahnfrei";
-       }
-        else if(function == false)
-        {
-            function2 = "nicht";
-        }
-
-        Console.WriteLine("Analyse für" + handy + " !");
-        Console.WriteLine("Speicherplatz" + speicher + "Gigabyte");
-        Console.WriteLine("Gerät lässt sich" + function2 + "nutzen");
+        Console.WriteLine("Analyse für " + handy + "!");
+        Console.WriteLine("Der wert beträgt " + wert + " Euro");
+        Console.WriteLine("Stand Dez. 2021, werte können stark schwanken, wir versuchen immer mit den neusten Preisen Up to Date zu sein!");
           }
         }
