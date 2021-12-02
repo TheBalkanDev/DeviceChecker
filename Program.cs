@@ -141,7 +141,7 @@ public class Program
                case "Wasser Schaden":
                    
                    wert = 0.65 * wert;
-                   Console.WriteLibe("Defekt: Wasserschaden");
+                   Console.WriteLine("Defekt: Wasserschaden");
                    break;
                    
                case "Sturzschaden":
@@ -160,7 +160,7 @@ public class Program
                    
                default:
                    
-              Console.WriteLibe("Syntax Error!");
+              Console.WriteLine("Syntax Error!");
               break;
                    
            }
