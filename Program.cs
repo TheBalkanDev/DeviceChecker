@@ -129,8 +129,42 @@ public class Program
            case "Nein":
            case "nein":
            
-           wert = 0.5 * wert;
-           Console.WriteLine("Das Gerät lässt sich nicht einwandfrei nutzen!");
+           Console.WriteLine("Was für ein defekt hat es!");
+           Console.WriteLine("Optionen: Wasserschaden, Sturzschaden");
+           string defekt = Console.ReadLine();
+               
+           switch(defekt)
+           {
+               case "Wasserschaden":
+               case "wasserschaden":
+               case "Wasser schaden":
+               case "Wasser Schaden":
+                   
+                   wert = 0.65 * wert;
+                   Console.WriteLibe("Defekt: Wasserschaden");
+                   break;
+                   
+               case "Sturzschaden":
+               case "sturzschaden":
+                   
+                   wert = 25 * wert;
+                   Console.WriteLine("Defekt: Sturzschaden");
+                   break;
+                   
+               case "Andere":
+               case "andere":
+                   
+               Console.WriteLine("Defekt: Abdere");
+               wert = 0.5 * wert;
+               break;
+                   
+               default:
+                   
+              Console.WriteLibe("Syntax Error!");
+              break;
+                   
+           }
+               
            break;
            
            default: 
