@@ -13,7 +13,7 @@
 ## To Do
 - [X] Code fertigstellen
 - [X] Bessere Analyse am Ende
-- [ ] Code Cleenup
+- [X] Code Cleenup
 - [ ] Mehrere Faktoren und mehr switch cases
 - [ ] Wiki
 - [ ] Linux Support
