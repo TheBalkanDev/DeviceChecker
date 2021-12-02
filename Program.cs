@@ -227,12 +227,29 @@ public class Program
             default:
             Console.WriteLine("Syntax Error!");
             break;
-                
-           Console.WriteLine("Wie ist der Zustand des Akkus, in Prozent?");
-              // Den Rest Code ich später waiter
         }
+                
+           Console.WriteLine("Ist ihre Akkukapazität unter oder über 80%?");
+           Console.WriteLine("Optionen: über, unter")
+           string akku = Console.ReadLine();
+                
+            switch(akku)
+          {
+                case "über":
+                case "üüber":
+                    
+               wert = + 4;
+               Console.WriteLine("Ihr Akku: Über 80%");
+               break;
+                    
+                case "unter":
+                case "Unter":
+                    
+                Console.WriteLine("Ihr Akku: Unter 80%!");
+                break;
+          }
         
-        Console.WriteLine("Analyse für " + handy + "!");
+       Console.WriteLine("Analyse für " + handy + " !");
         Console.WriteLine("Der wert beträgt " + wert + " Euro");
         Console.WriteLine("Stand Dez. 2021, werte können stark schwanken, wir versuchen immer mit den neusten Preisen Up to Date zu sein!");
           }
