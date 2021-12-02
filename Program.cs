@@ -129,8 +129,8 @@ public class Program
            case "Nein":
            case "nein":
            
-           Console.WriteLine("Was für ein defekt hat es!");
-           Console.WriteLine("Optionen: Wasserschaden, Sturzschaden");
+           Console.WriteLine("Was für ein defekt hat es?");
+           Console.WriteLine("Optionen: Wasserschaden, Sturzschaden, Andere");
            string defekt = Console.ReadLine();
                
            switch(defekt)
@@ -140,7 +140,7 @@ public class Program
                case "Wasser schaden":
                case "Wasser Schaden":
                    
-                   wert = 0.65 * wert;
+                   wert = 0.45 * wert;
                    Console.WriteLine("Defekt: Wasserschaden");
                    break;
                    
@@ -162,9 +162,7 @@ public class Program
                    
               Console.WriteLine("Syntax Error!");
               break;
-                   
            }
-               
            break;
            
            default: 
@@ -182,14 +180,13 @@ public class Program
               case "ja":
                   
               Console.WriteLine("Das Display ist in einem Top zustand!");
-              wert = wert + 2;
               break;
                   
               case "Nein":
               case "nein":
               
              Console.WriteLine("Der Bildschirm ist nicht heil und und/oder hat Schäden");
-             wert = wert - 6;
+             wert = 0.2 * wert;
              break;  
                   
             default:
@@ -215,7 +212,7 @@ public class Program
             case "schwer zu erkennen":
             case "2":
             
-            wert = wert - 2;
+            wert = 0.05 * wert;
             Console.WriteLine("Kratzer/Gebrauchsspuren am Gerät oder am Display sind schwer zu erkennen!");
             break;
                 
@@ -223,7 +220,7 @@ public class Program
             case "klar zu erkennen":
             case "3":
             
-           wert = wert - 5;
+           wert = 0.13 = wert;
            Console.WriteLine("Kratzer/Gebrauchsspuren am Gerät oder am Display sind klar zu erkennen!");
            break;
            
