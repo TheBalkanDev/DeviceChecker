@@ -227,6 +227,9 @@ public class Program
             default:
             Console.WriteLine("Syntax Error!");
             break;
+                
+           Console.WriteLine("Wie ist der Zustand des Akkus, in Prozent?");
+              // Den Rest Code ich später waiter
         }
         
         Console.WriteLine("Analyse für " + handy + "!");
