@@ -147,7 +147,7 @@ public class Program
                case "Sturzschaden":
                case "sturzschaden":
                    
-                   wert = 25 * wert;
+                   wert = 0.7 * wert;
                    Console.WriteLine("Defekt: Sturzschaden");
                    break;
                    
@@ -186,7 +186,7 @@ public class Program
               case "nein":
               
              Console.WriteLine("Der Bildschirm ist nicht heil und und/oder hat Schäden");
-             wert = 0.2 * wert;
+             wert = 0.8 * wert;
              break;  
                   
             default:
@@ -212,7 +212,7 @@ public class Program
             case "schwer zu erkennen":
             case "2":
             
-            wert = 0.05 * wert;
+            wert = 0.8 * wert;
             Console.WriteLine("Kratzer/Gebrauchsspuren am Gerät oder am Display sind schwer zu erkennen!");
             break;
                 
@@ -220,7 +220,7 @@ public class Program
             case "klar zu erkennen":
             case "3":
             
-           wert = 0.13 * wert;
+           wert = 0.9 * wert;
            Console.WriteLine("Kratzer/Gebrauchsspuren am Gerät oder am Display sind klar zu erkennen!");
            break;
            
@@ -238,7 +238,7 @@ public class Program
                 case "über":
                 case "üüber":
                     
-               wert = + 4;
+               wert = wert + 4;
                Console.WriteLine("Ihr Akku: Über 80%");
                break;
                     
