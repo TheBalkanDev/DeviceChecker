@@ -220,7 +220,7 @@ public class Program
             case "klar zu erkennen":
             case "3":
             
-           wert = 0.13 = wert;
+           wert = 0.13 * wert;
            Console.WriteLine("Kratzer/Gebrauchsspuren am Gerät oder am Display sind klar zu erkennen!");
            break;
            
