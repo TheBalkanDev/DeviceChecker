@@ -230,7 +230,7 @@ public class Program
         }
                 
            Console.WriteLine("Ist ihre Akkukapazität unter oder über 80%?");
-           Console.WriteLine("Optionen: über, unter")
+           Console.WriteLine("Optionen: über, unter");
            string akku = Console.ReadLine();
                 
             switch(akku)
