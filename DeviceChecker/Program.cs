@@ -21,6 +21,7 @@ public class Program
             case "i Phone 4S":
                 
             Console.WriteLine("Ihr Gerät: iPhone 4s!");
+             handy = "iPhone 4s";
              wert = 25;
              break;
                 
@@ -34,6 +35,7 @@ public class Program
             case "i Phone 6S":
                 
                 Console.WriteLine("Ihr Gerät: Phone 6s!");
+                string handy = "iPhone 6s";
                 wert = 85;
                 break;
                 
@@ -47,6 +49,7 @@ public class Program
                 
                 Console.WriteLine("Ihr Gerät: Samsung Galaxy S4!");
                 wert = 30;
+                handy = "Samsung Galaxy S4";
                 break;
                 
             case "SamsungS6":
@@ -59,6 +62,7 @@ public class Program
             case "Samsung Galaxy S6":
                 
                 Console.WriteLine("Samsung S6!");
+                handy = "Samsung Galaxy S6";
                 wert = 80;
                 break;
                 
@@ -206,6 +210,7 @@ public class Program
             case "1":
                 
           Console.WriteLine("Es sind keine Kratzer/Gebrauchsspuren am Gerät oder am Display zu erkennen!");
+          string zustand = "TOP";
           break;
                 
             case "Schwer zu erkennen":
@@ -247,10 +252,48 @@ public class Program
                     
                 Console.WriteLine("Ihr Akku: Unter 80%!");
                 break;
+                
+                default:
+                Console.WriteLine("Syntax Error");
           }
         
+        Console.WriteLine("Weisen die Glasteile Risse auf? (Hinteres Glas, Kameraobjektiv)");
+        string glas = Console.ReadLine();
+        
+        switch(glas)
+        {
+            case "Ja":
+            
+            Console.WriteLine("Ist das Hintere Glas oder das Kameraobjektiv beschädigt?");
+            string glas2 = Console.ReadLine();
+                
+             switch(glas2)
+             {
+                case "Hinteres Glas":
+                     
+                 wert =- 15;
+                 break;
+                     
+             case "Kameraobjektiv":
+                     
+             Console,WriteLine("Ihr Kameraobjektiv ist beschädigt");
+             wert =-3;
+             break;
+                     
+            default:
+            Console.WriteLine(""Syntax Error");
+            break; 
+          }
+            
+            case "Nein":
+                
+            Console.WriteLine():
+            break;
+            // Später
+        }
+        
        Console.WriteLine("Analyse für " + handy + " !");
-        Console.WriteLine("Der wert beträgt " + wert + " Euro");
-        Console.WriteLine("Stand Dez. 2021, werte können stark schwanken, wir versuchen immer mit den neusten Preisen Up to Date zu sein!");
+       Console.WriteLine("Der wert beträgt " + wert + " Euro");
+       Console.WriteLine("Stand Dez. 2021, werte können stark schwanken, wir versuchen immer mit den neusten Preisen Up to Date zu sein!");
           }
         }
