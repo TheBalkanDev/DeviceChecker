@@ -255,6 +255,7 @@ public class Program
                 
                 default:
                 Console.WriteLine("Syntax Error");
+                break;
           }
         
         Console.WriteLine("Weisen die Glasteile Risse auf? (Hinteres Glas, Kameraobjektiv)");
@@ -266,6 +267,7 @@ public class Program
             
             Console.WriteLine("Ist das Hintere Glas oder das Kameraobjektiv beschädigt?");
             string glas2 = Console.ReadLine();
+            break;
                 
              switch(glas2)
              {
@@ -276,18 +278,18 @@ public class Program
                      
              case "Kameraobjektiv":
                      
-             Console,WriteLine("Ihr Kameraobjektiv ist beschädigt");
+             Console.WriteLine("Ihr Kameraobjektiv ist beschädigt");
              wert =-3;
              break;
                      
             default:
-            Console.WriteLine(""Syntax Error");
+            Console.WriteLine("Syntax Error");
             break; 
           }
             
             case "Nein":
                 
-            Console.WriteLine():
+            Console.WriteLine("");
             break;
             // Später
         }
