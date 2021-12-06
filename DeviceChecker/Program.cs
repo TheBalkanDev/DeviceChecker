@@ -35,7 +35,7 @@ public class Program
             case "i Phone 6S":
                 
                 Console.WriteLine("Ihr Gerät: Phone 6s!");
-                string handy = "iPhone 6s";
+                handy = "iPhone 6s";
                 wert = 85;
                 break;
                 
@@ -82,6 +82,7 @@ public class Program
         case "16 GB":
         case "16 gb":
                 
+       speicher = "16 GB";
        Console.WriteLine("Ihr Speicher: 16 GB");
        break;
               
@@ -90,7 +91,8 @@ public class Program
         case "32gb":
         case "32 GB":
         case "32 gb":
-                
+        
+        speicher = "32 GB";
         Console.WriteLine("Ihr Speicher: 32 GB");
         break;
                 
@@ -100,6 +102,7 @@ public class Program
         case "64 GB":
         case "64 gb":
                 
+        speicher = "128 GB";
         Console.WriteLine("Ihr Speicher: 64 GB");
         wert = wert + 5;
         break;
@@ -110,6 +113,7 @@ public class Program
         case "128 GB":
         case "128 gb":
                 
+        speicher = "128 GB";
         Console.WriteLine("Ihr Speicher: 128 GB");
         wert = wert + 10;
         break;
