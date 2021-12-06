@@ -295,8 +295,25 @@ public class Program
                 
             Console.WriteLine("");
             break;
-            // Später
         }
+            
+           Console.WriteLine("Funktioniert der Fingerabdrucksensor oder die Gesichtserkennung?");
+           string sensor = Console.ReadLine();
+                
+           switch(sensor)
+           {
+               case "Ja":
+               Console.WriteLine();
+               wert =-5
+               break;
+                   
+               case "Nein": 
+               Console.WriteLine();
+               break;
+                   
+               default:
+               ConsoleWriteLine("Syntax Error!");
+               break:
         
        Console.WriteLine("Analyse für " + handy + " !");
        Console.WriteLine("Der wert beträgt " + wert + " Euro");
