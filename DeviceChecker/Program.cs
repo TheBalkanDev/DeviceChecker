@@ -10,62 +10,58 @@ public class Program
         
         switch(handy)
         {
-            case "Iphone 4s":
-            case "iPhone4s":
-            case "iphone4s":
-            case "iphone 4S":
-            case "i phone 4s":
-            case "iPhone 4s":
-            case  "iPhone4S":
-            case "iPhone 4S":
-            case "i Phone 4S":
+            case "iPhone 4":
+            case "iPhone4":
                 
-            Console.WriteLine("Ihr Gerät: iPhone 4s!");
-             handy = "iPhone 4s";
-             wert = 25;
+             Console.WriteLine("Ihr Gerät: iPhone 4!");
+             handy = "iPhone 4";
+             wert = 17;
              break;
                 
-            case "iPhone6s":
-            case "iphone6s":
-            case "iphone 6s":
-            case "i phone 6s":
-            case "iPhone 6s":
-            case "iPhone6S":
-            case "iPhone 6S":
-            case "i Phone 6S":
+            case "iPhone 4s":
+            case "iPhone 4S":
+            case "iPhone4s":
+            case "iPhone4S":
                 
-                Console.WriteLine("Ihr Gerät: Phone 6s!");
-                handy = "iPhone 6s";
-                wert = 85;
+                Console.WriteLine("Ihr Gerät: Phone 4s!");
+                handy = "iPhone 4s";
+                wert = 23;
                 break;
                 
-            case "SamsungS4":
-            case "Galaxy s4":
-            case "samsung s4":
-            case "Samsung S4":
-            case "Galaxy S4":
-            case "GalaxyS4":
-            case "Samsung Galaxy S4":
+            case "iPhone 5":
+            case "iPhone5":
                 
-                Console.WriteLine("Ihr Gerät: Samsung Galaxy S4!");
-                wert = 30;
-                handy = "Samsung Galaxy S4";
+                Console.WriteLine("Ihr Gerät: iPhone 5!");
+                wert = 33;
+                handy = "iPhone 5";
                 break;
                 
-            case "SamsungS6":
-            case "Galaxy s6":
-            case "samsung s6":
-            case "Samsung S6":
-            case "Galaxy S6":
-            case "GalaxyS6":
-            case "Galaxys6":
-            case "Samsung Galaxy S6":
+            case "iPhone 5c":
+            case "iPhone 5C":
+            case "iPhone5c":
+            case "iPhone5C":
                 
-                Console.WriteLine("Samsung S6!");
-                handy = "Samsung Galaxy S6";
-                wert = 80;
+                Console.WriteLine("Ihr Gerät: iPhone 5C!");
+                handy = "iPhone 5C";
+                wert = 33; // Der exakte wert wird später hinzugefügt, bin dabei ihn zu berechnen
                 break;
                 
+            case "iPhone 5s":
+            case "iPhone 5S":
+                
+                wert = 37;
+                string handy = "iPhone 5s";
+                Console.WriteLine("Ihr Gerät: iPhone 5s!");
+                break;
+                
+            case "iPhone 6":
+            case "iPhone6":
+                
+                wert = 45;
+                string handy = "iPhone 6";
+                Console.WriteLine("Ihr Gerät: iPhone 6!");
+                break;
+               
             default:
                 Console.WriteLine("Syntax Error");
                 break;
@@ -102,9 +98,9 @@ public class Program
         case "64 GB":
         case "64 gb":
                 
-        speicher = "128 GB";
+        speicher = "64 GB";
         Console.WriteLine("Ihr Speicher: 64 GB");
-        wert = wert + 5;
+        wert = wert + 4;
         break;
                 
         case "128":
@@ -115,7 +111,7 @@ public class Program
                 
         speicher = "128 GB";
         Console.WriteLine("Ihr Speicher: 128 GB");
-        wert = wert + 10;
+        wert = wert + 8;
         break;
                 
        default:
@@ -194,7 +190,7 @@ public class Program
               case "nein":
               
              Console.WriteLine("Der Bildschirm ist nicht heil und und/oder hat Schäden");
-             wert = 0.8 * wert;
+             wert = 0.75 * wert;
              break;  
                   
             default:
@@ -214,7 +210,7 @@ public class Program
             case "1":
                 
           Console.WriteLine("Es sind keine Kratzer/Gebrauchsspuren am Gerät oder am Display zu erkennen!");
-          string zustand = "TOP";
+          string zustand = "Top Zustand";
           break;
                 
             case "Schwer zu erkennen":
@@ -229,7 +225,7 @@ public class Program
             case "klar zu erkennen":
             case "3":
             
-           wert = 0.9 * wert;
+           wert = 0.7 * wert;
            Console.WriteLine("Kratzer/Gebrauchsspuren am Gerät oder am Display sind klar zu erkennen!");
            break;
            
@@ -238,23 +234,23 @@ public class Program
             break;
         }
                 
-           Console.WriteLine("Ist ihre Akkukapazität unter oder über 80%?");
+           Console.WriteLine("Ist ihre Akkukapazität unter oder über 500 Ladekyklen bzw. 80%?");
            Console.WriteLine("Optionen: über, unter");
            string akku = Console.ReadLine();
                 
             switch(akku)
           {
                 case "über":
-                case "üüber":
+                case "über":
                     
                wert = wert + 4;
-               Console.WriteLine("Ihr Akku: Über 80%");
+               Console.WriteLine("Ihr Akku: ist in einen guten Zustand.");
                break;
                     
                 case "unter":
                 case "Unter":
                     
-                Console.WriteLine("Ihr Akku: Unter 80%!");
+                Console.WriteLine();
                 break;
                 
                 default:
@@ -277,13 +273,13 @@ public class Program
              {
                 case "Hinteres Glas":
                      
-                 wert =- 15;
+                 wert = 0.8 * wert; // Wert Ungenau!
                  break;
                      
              case "Kameraobjektiv":
                      
              Console.WriteLine("Ihr Kameraobjektiv ist beschädigt");
-             wert =-3;
+             wert = 0.87 * wert;
              break;
                      
             default:
@@ -304,10 +300,10 @@ public class Program
            {
                case "Ja":
                Console.WriteLine();
-               wert =-5
                break;
                    
                case "Nein": 
+               wert = 0.85 * wert;
                Console.WriteLine();
                break;
                    
