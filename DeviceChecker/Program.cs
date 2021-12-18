@@ -14,7 +14,6 @@ public class Program
             case "iPhone4":
                 
              Console.WriteLine("Ihr Gerät: iPhone 4!");
-             handy = "iPhone 4";
              wert = 15;
              break;
                 
@@ -33,7 +32,6 @@ public class Program
                 
                 Console.WriteLine("Ihr Gerät: iPhone 5!");
                 wert = 33;
-                handy = "iPhone 5";
                 break;
                 
             case "iPhone 5c":
@@ -42,7 +40,6 @@ public class Program
             case "iPhone5C":
                 
                 Console.WriteLine("Ihr Gerät: iPhone 5C!");
-                handy = "iPhone 5C";
                 wert = 37; // Der exakte wert wird später hinzugefügt, bin dabei ihn zu berechnen
                 break;
                 
@@ -50,7 +47,6 @@ public class Program
             case "iPhone 5S":
                 
                 wert = 35;
-                string handy = "iPhone 5s";
                 Console.WriteLine("Ihr Gerät: iPhone 5s!");
                 break;
                 
@@ -58,7 +54,6 @@ public class Program
             case "iPhone6":
                 
                 wert = 45;
-                string handy = "iPhone 6";
                 Console.WriteLine("Ihr Gerät: iPhone 6!");
                 break;
                
