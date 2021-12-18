@@ -1,11 +1,16 @@
 using System;
 
-public class Program
+public class App
 {
     public static void Main()
     {
         double wert = 0;
+        Console.WriteLine("----------------------------");
+        Console.WriteLine("Willkommen zu DeviceChecker!");
+        Console.WriteLine("----------------------------");
+        Console.WriteLine("                            ");
         Console.WriteLine("Welches Smartphone wollen Sie verkaufen?");
+        Console.WriteLine("Zum Beispiel: iPhone 6");
         string handy = Console.ReadLine();
         
         switch(handy)
@@ -22,7 +27,7 @@ public class Program
             case "iPhone4s":
             case "iPhone4S":
                 
-                Console.WriteLine("Ihr Gerät: Phone 4s!");
+                Console.WriteLine("Ihr Gerät: iPhone 4s!");
                 handy = "iPhone 4s";
                 wert = 23;
                 break;
@@ -62,38 +67,28 @@ public class Program
                 break;
         }
         
+        Console.Clear();
         Console.WriteLine("Wie viel Speicherplatz hat das Gerät?");
+        Console.WriteLine("Zum Beispiel 16, 32, 64, etc.");
          string speicher = Console.ReadLine();
         
         switch(speicher)
         {
         case "16":
         case "16GB":
-        case "16gb":
-        case "16 GB":
-        case "16 gb":
                 
-       speicher = "16 GB";
        Console.WriteLine("Ihr Speicher: 16 GB");
        break;
               
         case "32":
         case "32GB":
-        case "32gb":
-        case "32 GB":
-        case "32 gb":
         
-        speicher = "32 GB";
         Console.WriteLine("Ihr Speicher: 32 GB");
         break;
                 
         case "64":
         case "64GB":
-        case "64gb":
-        case "64 GB":
-        case "64 gb":
                 
-        speicher = "64 GB";
         Console.WriteLine("Ihr Speicher: 64 GB");
         wert = wert + 4;
         break;
@@ -101,10 +96,7 @@ public class Program
         case "128":
         case "128GB":
         case "128gb":
-        case "128 GB":
-        case "128 gb":
                 
-        speicher = "128 GB";
         Console.WriteLine("Ihr Speicher: 128 GB");
         wert = wert + 8;
         break;
@@ -113,8 +105,10 @@ public class Program
        Console.WriteLine("Error");
        break;         
      }
-                                  
+     
+     Console.Clear();
      Console.WriteLine("Lässt sich das Gerät einwandfrei nutzen?");
+     Console.WriteLine("Optionen: Ja, Nein");
      string funktion = Console.ReadLine();
 
        switch(funktion)
@@ -122,7 +116,7 @@ public class Program
            case "Ja":
            case "ja":
            
-           Console.WriteLine("Das Gerät lasst sich einwandfrei nutzen!");
+           Console.WriteLine("Das Gerät lässt sich einwandfrei nutzen!");
            break;
            
            case "Nein":
@@ -169,6 +163,7 @@ public class Program
            break;
        }
         
+         Console.Clear();
          Console.WriteLine("Ist der Bildschirm heil und ohne Schäden?");
          Console.WriteLine("Option: Ja oder nein");
          string display = Console.ReadLine();
@@ -193,6 +188,7 @@ public class Program
             break;
           }
         
+        Console.Clear();
         Console.WriteLine("Sind Kratzer/Gebrauchsspuren am Gerät oder am Display zu erkennen?");
         Console.WriteLine("Optionen: Nein, Schwer zu erkennen, Klar zu erkennen");
         Console.WriteLine("Oder 1, 2 oder 3");
@@ -228,7 +224,7 @@ public class Program
             Console.WriteLine("Syntax Error!");
             break;
         }
-                
+           Console.Clear();
            Console.WriteLine("Ist ihre Akkukapazität unter oder über 500 Ladekyklen bzw. 80%?");
            Console.WriteLine("Optionen: über, unter");
            string akku = Console.ReadLine();
@@ -242,7 +238,6 @@ public class Program
                break;
                     
                 case "unter":
-                case "Unter":
                     
                 Console.WriteLine();
                 break;
@@ -252,6 +247,7 @@ public class Program
                 break;
           }
         
+        Console.Clear():
         Console.WriteLine("Weisen die Glasteile Risse auf? (Hinteres Glas, Kameraobjektiv)");
         string glas = Console.ReadLine();
         
@@ -291,7 +287,7 @@ public class Program
                 Console.WriteLine("Syntax Error!");
                 break;
         }
-            
+           Console.Clear();
            Console.WriteLine("Funktioniert der Fingerabdrucksensor oder die Gesichtserkennung?");
            string sensor = Console.ReadLine();
                 
@@ -311,8 +307,11 @@ public class Program
                break;
            }
         
+       Console.Clear();
+       Console.WriteLine("---------------------------------------------------------------------------------------------------------------");
        Console.WriteLine("Analyse für " + handy + " !");
        Console.WriteLine("Der wert beträgt " + wert + " Euro");
        Console.WriteLine("Stand Dez. 2021, werte können stark schwanken, wir versuchen immer mit den neusten Preisen Up to Date zu sein!");
+       Console.WriteLine("--------------------------------------------------------------------------------------------------------------");
           }
         }
