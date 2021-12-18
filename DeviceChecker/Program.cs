@@ -6,7 +6,7 @@ public class App
     {
         double wert = 0;
         Console.WriteLine("----------------------------");
-        Console.WriteLine("Willkommen zu DeviceChecker!");
+        Console.WriteLine("Willkommen zu DeviceChecker, Version 0.0.1!");
         Console.WriteLine("----------------------------");
         Console.WriteLine("                            ");
         Console.WriteLine("Welches Smartphone wollen Sie verkaufen?");
@@ -17,8 +17,7 @@ public class App
         {
             case "iPhone 4":
             case "iPhone4":
-                
-             Console.WriteLine("Ihr Gerät: iPhone 4!");
+             
              wert = 15;
              break;
                 
@@ -26,16 +25,14 @@ public class App
             case "iPhone 4S":
             case "iPhone4s":
             case "iPhone4S":
-                
-                Console.WriteLine("Ihr Gerät: iPhone 4s!");
+               
                 handy = "iPhone 4s";
                 wert = 23;
                 break;
                 
             case "iPhone 5":
             case "iPhone5":
-                
-                Console.WriteLine("Ihr Gerät: iPhone 5!");
+         
                 wert = 33;
                 break;
                 
@@ -44,7 +41,6 @@ public class App
             case "iPhone5c":
             case "iPhone5C":
                 
-                Console.WriteLine("Ihr Gerät: iPhone 5C!");
                 wert = 37; // Der exakte wert wird später hinzugefügt, bin dabei ihn zu berechnen
                 break;
                 
@@ -52,18 +48,16 @@ public class App
             case "iPhone 5S":
                 
                 wert = 35;
-                Console.WriteLine("Ihr Gerät: iPhone 5s!");
                 break;
                 
             case "iPhone 6":
             case "iPhone6":
                 
                 wert = 45;
-                Console.WriteLine("Ihr Gerät: iPhone 6!");
                 break;
                
             default:
-                Console.WriteLine("Syntax Error");
+                Console.WriteLine("Syntax Error!");
                 break;
         }
         
@@ -77,32 +71,29 @@ public class App
         case "16":
         case "16GB":
                 
-       Console.WriteLine("Ihr Speicher: 16 GB");
+       Console.WriteLine();
        break;
               
         case "32":
         case "32GB":
         
-        Console.WriteLine("Ihr Speicher: 32 GB");
+        Console.WriteLine();
         break;
                 
         case "64":
         case "64GB":
                 
-        Console.WriteLine("Ihr Speicher: 64 GB");
         wert = wert + 4;
         break;
                 
         case "128":
         case "128GB":
-        case "128gb":
                 
-        Console.WriteLine("Ihr Speicher: 128 GB");
         wert = wert + 8;
         break;
                 
        default:
-       Console.WriteLine("Error");
+       Console.WriteLine("Syntax Error");
        break;         
      }
      
@@ -116,7 +107,7 @@ public class App
            case "Ja":
            case "ja":
            
-           Console.WriteLine("Das Gerät lässt sich einwandfrei nutzen!");
+           Console.WriteLine();
            break;
            
            case "Nein":
@@ -134,20 +125,17 @@ public class App
                case "Wasser Schaden":
                    
                    wert = 0.4 * wert;
-                   Console.WriteLine("Defekt: Wasserschaden");
                    break;
                    
                case "Sturzschaden":
                case "sturzschaden":
                    
                    wert = 0.7 * wert;
-                   Console.WriteLine("Defekt: Sturzschaden");
                    break;
                    
                case "Andere":
                case "andere":
-                   
-               Console.WriteLine("Defekt: Abdere");
+                 
                wert = 0.5 * wert;
                break;
                    
@@ -173,18 +161,18 @@ public class App
               case "Ja":
               case "ja":
                   
-              Console.WriteLine("Das Display ist in einem Top zustand!");
+              Console.WriteLine();
               break;
                   
               case "Nein":
               case "nein":
               
-             Console.WriteLine("Der Bildschirm ist nicht heil und und/oder hat Schäden");
+             Console.WriteLine();
              wert = 0.75 * wert;
              break;  
                   
             default:
-            Console.WriteLine("Syntax Error");
+            Console.WriteLine("Syntax Error!");
             break;
           }
         
@@ -200,8 +188,7 @@ public class App
             case "nein":
             case "1":
                 
-          Console.WriteLine("Es sind keine Kratzer/Gebrauchsspuren am Gerät oder am Display zu erkennen!");
-          string zustand = "Top Zustand";
+          Console.WriteLine();
           break;
                 
             case "Schwer zu erkennen":
@@ -209,7 +196,7 @@ public class App
             case "2":
             
             wert = 0.85 * wert;
-            Console.WriteLine("Kratzer/Gebrauchsspuren am Gerät oder am Display sind schwer zu erkennen!");
+            Console.WriteLine();
             break;
                 
             case "Klar zu erkennen":
@@ -217,7 +204,7 @@ public class App
             case "3":
             
            wert = 0.73 * wert;
-           Console.WriteLine("Kratzer/Gebrauchsspuren am Gerät oder am Display sind klar zu erkennen!");
+           Console.WriteLine();
            break;
            
             default:
@@ -234,7 +221,7 @@ public class App
                 case "über":
                     
                wert = wert + 3;
-               Console.WriteLine("Ihr Akku: ist in einen guten Zustand.");
+               Console.WriteLine();
                break;
                     
                 case "unter":
@@ -243,7 +230,7 @@ public class App
                 break;
                 
                 default:
-                Console.WriteLine("Syntax Error");
+                Console.WriteLine("Syntax Error!");
                 break;
           }
         
@@ -257,23 +244,28 @@ public class App
             case "ja":
             
             Console.WriteLine("Ist das Hintere Glas oder das Kameraobjektiv beschädigt?");
-            string glas2 = Console.ReadLine();
+            Console.WriteLine("Optionen: Hinteres Glas, Kameraobjektiv");
+            Console.WriteLine(Oder: 1, 2);
+                
+           string glas2 = Console.ReadLine();
                 
              switch(glas2)
              {
                 case "Hinteres Glas":
+                case "1":
                      
                  wert = 0.7 * wert; // Wert Ungenau!
                  break;
                      
              case "Kameraobjektiv":
+             case "2":
                      
-             Console.WriteLine("Ihr Kameraobjektiv ist beschädigt");
+             Console.WriteLine();
              wert = 0.8 * wert;
              break;
                      
             default:
-            Console.WriteLine("Syntax Error");
+            Console.WriteLine("Syntax Error!");
             break; 
           }
            break;
@@ -291,6 +283,7 @@ public class App
         }
            Console.Clear();
            Console.WriteLine("Funktioniert der Fingerabdrucksensor oder die Gesichtserkennung?");
+           Console.WriteLine("Optionen: Ja, nein");
            string sensor = Console.ReadLine();
                 
            switch(sensor)
