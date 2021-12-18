@@ -22,7 +22,7 @@
 
 ## Release?
 
-**Die Version 0.0.1 wird bis zum 17.12.21 veröffentlicht werden.**
+**Die Version 0.0.3 ist nun verfügbar!**
 
 Alle Fearures aus der To Do werden erst mit der 1.0.0 Vollsersion verfügbar sein, der Release Termin ist noch unbekannt.
 
