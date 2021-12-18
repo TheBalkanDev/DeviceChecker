@@ -310,6 +310,7 @@ public class Program
                default:
                ConsoleWriteLine("Syntax Error!");
                break:
+           }
         
        Console.WriteLine("Analyse für " + handy + " !");
        Console.WriteLine("Der wert beträgt " + wert + " Euro");
