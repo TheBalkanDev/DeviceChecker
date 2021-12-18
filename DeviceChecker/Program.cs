@@ -247,7 +247,7 @@ public class App
                 break;
           }
         
-        Console.Clear():
+        Console.Clear();
         Console.WriteLine("Weisen die Glasteile Risse auf? (Hinteres Glas, Kameraobjektiv)");
         string glas = Console.ReadLine();
         
