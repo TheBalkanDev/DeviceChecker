@@ -27,7 +27,7 @@
 Alle Fearures aus der To Do werden erst mit der 1.0.0 Vollsersion verfügbar sein, der Release Termin ist noch unbekannt.
 
 ## Welche Geräte werden Unterstützt (Preisanalyse)
-- [ ] Apple iPhones
+- [X] Apple iPhones
 - [ ] Apple iPads (villeicht)
 - [ ] Samsung Galaxy S Modelle
 - [ ] Samsung Galaxy A, J  und M Modelle
