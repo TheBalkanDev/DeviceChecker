@@ -15,6 +15,20 @@ public class App
         
         switch(handy)
         {
+                
+            case "iPhone 3G":
+            case "iPhone 3g":
+                
+                wert = 15;
+                break;
+                
+            case "iPhone 3GS"
+            case "iPhone 3gs":
+            case "iPhone 3G S":
+               
+                wert = 15;
+                break;
+                
             case "iPhone 4":
             case "iPhone4":
              
@@ -53,7 +67,41 @@ public class App
             case "iPhone 6":
             case "iPhone6":
                 
-                wert = 45;
+                wert = 47;
+                break;
+                
+            case "iPhone 6S":
+            case "iPhone 6s":
+                
+                wert = 85;
+                break;
+                
+            case "iPhone se":
+            case "iPhone SE (2016)":
+            case "iPhone se 2016":
+            case "iPhone SE":
+            case "iPhone SE 1":
+                
+                wert = 65;
+                break;
+               
+            case "iPhone 7":
+            case "iPhone7":
+                
+                wert = 90;
+                break;
+                
+            case "iPhone 8":
+            case "iPhone8":
+                
+                wert = 125;
+                break;
+               
+            case "iPhone X":
+            case "iPhone 10":
+            case "iPhone x":
+                
+                wert = 190;
                 break;
                
             default:
