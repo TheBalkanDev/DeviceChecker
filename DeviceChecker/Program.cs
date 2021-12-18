@@ -245,7 +245,7 @@ public class App
             
             Console.WriteLine("Ist das Hintere Glas oder das Kameraobjektiv beschädigt?");
             Console.WriteLine("Optionen: Hinteres Glas, Kameraobjektiv");
-            Console.WriteLine("Oder: 1, 2);
+            Console.WriteLine("Oder: 1, 2");
                 
            string glas2 = Console.ReadLine();
                 
