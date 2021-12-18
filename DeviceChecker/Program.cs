@@ -279,6 +279,7 @@ public class Program
             Console.WriteLine("Syntax Error");
             break; 
           }
+           break;
    
             case "Nein":
                 
@@ -288,6 +289,7 @@ public class Program
             default:
                 
                 Console.WriteLine("Syntax Error!");
+                break;
         }
             
            Console.WriteLine("Funktioniert der Fingerabdrucksensor oder die Gesichtserkennung?");
