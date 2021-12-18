@@ -236,7 +236,6 @@ public class Program
             switch(akku)
           {
                 case "über":
-                case "über":
                     
                wert = wert + 3;
                Console.WriteLine("Ihr Akku: ist in einen guten Zustand.");
