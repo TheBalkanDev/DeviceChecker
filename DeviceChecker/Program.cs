@@ -15,7 +15,7 @@ public class Program
                 
              Console.WriteLine("Ihr Gerät: iPhone 4!");
              handy = "iPhone 4";
-             wert = 17;
+             wert = 15;
              break;
                 
             case "iPhone 4s":
@@ -43,13 +43,13 @@ public class Program
                 
                 Console.WriteLine("Ihr Gerät: iPhone 5C!");
                 handy = "iPhone 5C";
-                wert = 33; // Der exakte wert wird später hinzugefügt, bin dabei ihn zu berechnen
+                wert = 37; // Der exakte wert wird später hinzugefügt, bin dabei ihn zu berechnen
                 break;
                 
             case "iPhone 5s":
             case "iPhone 5S":
                 
-                wert = 37;
+                wert = 35;
                 string handy = "iPhone 5s";
                 Console.WriteLine("Ihr Gerät: iPhone 5s!");
                 break;
@@ -144,7 +144,7 @@ public class Program
                case "Wasser schaden":
                case "Wasser Schaden":
                    
-                   wert = 0.45 * wert;
+                   wert = 0.4 * wert;
                    Console.WriteLine("Defekt: Wasserschaden");
                    break;
                    
@@ -217,7 +217,7 @@ public class Program
             case "schwer zu erkennen":
             case "2":
             
-            wert = 0.8 * wert;
+            wert = 0.85 * wert;
             Console.WriteLine("Kratzer/Gebrauchsspuren am Gerät oder am Display sind schwer zu erkennen!");
             break;
                 
@@ -225,7 +225,7 @@ public class Program
             case "klar zu erkennen":
             case "3":
             
-           wert = 0.7 * wert;
+           wert = 0.73 * wert;
            Console.WriteLine("Kratzer/Gebrauchsspuren am Gerät oder am Display sind klar zu erkennen!");
            break;
            
@@ -243,7 +243,7 @@ public class Program
                 case "über":
                 case "über":
                     
-               wert = wert + 4;
+               wert = wert + 3;
                Console.WriteLine("Ihr Akku: ist in einen guten Zustand.");
                break;
                     
@@ -273,13 +273,13 @@ public class Program
              {
                 case "Hinteres Glas":
                      
-                 wert = 0.8 * wert; // Wert Ungenau!
+                 wert = 0.7 * wert; // Wert Ungenau!
                  break;
                      
              case "Kameraobjektiv":
                      
              Console.WriteLine("Ihr Kameraobjektiv ist beschädigt");
-             wert = 0.87 * wert;
+             wert = 0.8 * wert;
              break;
                      
             default:
@@ -303,7 +303,7 @@ public class Program
                break;
                    
                case "Nein": 
-               wert = 0.85 * wert;
+               wert = 0.65 * wert;
                Console.WriteLine();
                break;
                    
