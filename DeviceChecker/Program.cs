@@ -261,7 +261,6 @@ public class Program
             
             Console.WriteLine("Ist das Hintere Glas oder das Kameraobjektiv beschädigt?");
             string glas2 = Console.ReadLine();
-            break;
                 
              switch(glas2)
              {
@@ -285,6 +284,10 @@ public class Program
                 
             Console.WriteLine("");
             break;
+                
+            default:
+                
+                Console.WriteLine("Syntax Error!");
         }
             
            Console.WriteLine("Funktioniert der Fingerabdrucksensor oder die Gesichtserkennung?");
