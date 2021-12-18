@@ -286,7 +286,7 @@ public class Program
             Console.WriteLine("Syntax Error");
             break; 
           }
-            
+   
             case "Nein":
                 
             Console.WriteLine("");
@@ -308,8 +308,8 @@ public class Program
                break;
                    
                default:
-               ConsoleWriteLine("Syntax Error!");
-               break:
+               Console.WriteLine("Syntax Error!");
+               break;
            }
         
        Console.WriteLine("Analyse für " + handy + " !");
