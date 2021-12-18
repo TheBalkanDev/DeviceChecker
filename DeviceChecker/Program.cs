@@ -254,6 +254,7 @@ public class App
         switch(glas)
         {
             case "Ja":
+            case "ja":
             
             Console.WriteLine("Ist das Hintere Glas oder das Kameraobjektiv beschädigt?");
             string glas2 = Console.ReadLine();
@@ -278,6 +279,7 @@ public class App
            break;
    
             case "Nein":
+            case "nein":
                 
             Console.WriteLine("");
             break;
@@ -294,10 +296,13 @@ public class App
            switch(sensor)
            {
                case "Ja":
+               case "ja":
                Console.WriteLine();
                break;
                    
                case "Nein": 
+               case "nein":
+                   
                wert = 0.65 * wert;
                Console.WriteLine();
                break;
