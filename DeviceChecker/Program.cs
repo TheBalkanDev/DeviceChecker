@@ -18,62 +18,88 @@ public class App
                 
             case "iPhone 3G":
             case "iPhone 3g":
-                
+            case "iphone 3g":
+            case "iphone 3G":
+               
                 wert = 15;
+                Console.Clear();
                 break;
                 
             case "iPhone 3GS":
-            case "iPhone 3gs":
+            case "iPhone 3gs":ö
             case "iPhone 3G S":
+            case "iphone 3GS":
+            case "iphone 3gs":
                
                 wert = 15;
+                Console.Clear();
                 break;
                 
             case "iPhone 4":
             case "iPhone4":
+            case "iphone 4":
+            case "iphone4":
              
              wert = 15;
+             Console.Clear();
              break;
                 
             case "iPhone 4s":
             case "iPhone 4S":
             case "iPhone4s":
             case "iPhone4S":
+            case "iphone 4s":
+            case "iphone 4S":
                
-                handy = "iPhone 4s";
                 wert = 23;
+                Console.Clear();
                 break;
                 
             case "iPhone 5":
             case "iPhone5":
+            case "iphone 5":
          
                 wert = 33;
+                Console.Clear();
                 break;
                 
             case "iPhone 5c":
             case "iPhone 5C":
             case "iPhone5c":
             case "iPhone5C":
+            case "iphone 5c":
+            case "iphone 5C":
                 
-                wert = 37; // Der exakte wert wird später hinzugefügt, bin dabei ihn zu berechnen
+                wert = 37; 
+                Console.Clear();
+                // Der exakte wert wird später hinzugefügt, bin dabei ihn zu berechnen
                 break;
                 
             case "iPhone 5s":
             case "iPhone 5S":
+            case "iphone 5s":
+            case "iphone 5S":
                 
-                wert = 35;
+                wert = 37;
+                Console.Clear();
                 break;
                 
             case "iPhone 6":
             case "iPhone6":
+            case "iphone 6"
+            cass "iphone6":
                 
                 wert = 47;
+                Console.Clear();
                 break;
                 
             case "iPhone 6S":
             case "iPhone 6s":
+            case "iphone 6s":
+            case "iphone 6S":
                 
                 wert = 85;
+                Console.Clear();
                 break;
                 
             case "iPhone se":
@@ -81,35 +107,46 @@ public class App
             case "iPhone se 2016":
             case "iPhone SE":
             case "iPhone SE 1":
+            case "iphone se 1":
+            case "iPhone SE (1th Generation)":
                 
                 wert = 65;
+                Console.Clear();
                 break;
                
             case "iPhone 7":
             case "iPhone7":
+            case "iphone7":
                 
                 wert = 90;
+                Console.Clear();
                 break;
                 
             case "iPhone 8":
-            case "iPhone8":
+            case "iPhone8"
+            case "iphone 8":
                 
                 wert = 125;
+                Console.Clear();
                 break;
                
             case "iPhone X":
             case "iPhone 10":
             case "iPhone x":
+            case "iphone x":
+            case "iphoneX":
+            case "iphone 10":
                 
-                wert = 190;
+                wert = 187;
+                Console.Clear();
                 break;
                
             default:
                 Console.WriteLine("Syntax Error!");
+                Console.WriteLine("Wiki:");
                 break;
         }
         
-        Console.Clear();
         Console.WriteLine("Wie viel Speicherplatz hat das Gerät?");
         Console.WriteLine("Zum Beispiel 16, 32, 64, etc.");
          string speicher = Console.ReadLine();
@@ -119,33 +156,35 @@ public class App
         case "16":
         case "16GB":
                 
-       Console.WriteLine();
+       Console.Clear();
        break;
               
         case "32":
         case "32GB":
         
-        Console.WriteLine();
+        Console.Clear();
         break;
                 
         case "64":
         case "64GB":
                 
         wert = wert + 4;
+        Console.Clear();
         break;
                 
         case "128":
         case "128GB":
                 
-        wert = wert + 8;
+        wert = wert + 9;
+        Console.Clear();
         break;
                 
        default:
        Console.WriteLine("Syntax Error");
+       Console.WriteLine("Wiki:");
        break;         
      }
-     
-     Console.Clear();
+    
      Console.WriteLine("Lässt sich das Gerät einwandfrei nutzen?");
      Console.WriteLine("Optionen: Ja, Nein");
      string funktion = Console.ReadLine();
@@ -155,7 +194,7 @@ public class App
            case "Ja":
            case "ja":
            
-           Console.WriteLine();
+           Console.Clear();
            break;
            
            case "Nein":
@@ -173,33 +212,37 @@ public class App
                case "Wasser Schaden":
                    
                    wert = 0.4 * wert;
+                   Console.Clear();
                    break;
                    
                case "Sturzschaden":
                case "sturzschaden":
                    
                    wert = 0.7 * wert;
+                   Console.Clear();
                    break;
                    
                case "Andere":
                case "andere":
                  
                wert = 0.5 * wert;
+               Console.Clear();
                break;
                    
                default:
                    
               Console.WriteLine("Syntax Error!");
+              Console.WriteLine("Wiki:");
               break;
            }
            break;
            
            default: 
            Console.WriteLine("Syntax Error!");
+           Console.WriteLine("Wiki:");
            break;
        }
-        
-         Console.Clear();
+       
          Console.WriteLine("Ist der Bildschirm heil und ohne Schäden?");
          Console.WriteLine("Option: Ja oder nein");
          string display = Console.ReadLine();
@@ -209,22 +252,22 @@ public class App
               case "Ja":
               case "ja":
                   
-              Console.WriteLine();
+              Console.Clear();
               break;
                   
               case "Nein":
               case "nein":
               
-             Console.WriteLine();
              wert = 0.75 * wert;
+             Console.Clear();
              break;  
                   
             default:
             Console.WriteLine("Syntax Error!");
+            Console.WriteLine("Wiki:");
             break;
           }
         
-        Console.Clear();
         Console.WriteLine("Sind Kratzer/Gebrauchsspuren am Gerät oder am Display zu erkennen?");
         Console.WriteLine("Optionen: Nein, Schwer zu erkennen, Klar zu erkennen");
         Console.WriteLine("Oder 1, 2 oder 3");
@@ -236,7 +279,7 @@ public class App
             case "nein":
             case "1":
                 
-          Console.WriteLine();
+          Console.Clear();
           break;
                 
             case "Schwer zu erkennen":
@@ -244,22 +287,22 @@ public class App
             case "2":
             
             wert = 0.85 * wert;
-            Console.WriteLine();
+            Console.Clear();
             break;
                 
             case "Klar zu erkennen":
             case "klar zu erkennen":
             case "3":
             
-           wert = 0.73 * wert;
-           Console.WriteLine();
+           wert = 0.77 * wert;
+           Console.Clear();
            break;
            
             default:
             Console.WriteLine("Syntax Error!");
+            Console.WriteLine("Wiki:");
             break;
         }
-           Console.Clear();
            Console.WriteLine("Ist ihre Akkukapazität unter oder über 500 Ladekyklen bzw. 80%?");
            Console.WriteLine("Optionen: über, unter");
            string akku = Console.ReadLine();
@@ -269,20 +312,20 @@ public class App
                 case "über":
                     
                wert = wert + 3;
-               Console.WriteLine();
+               Console.Clear();
                break;
                     
                 case "unter":
                     
-                Console.WriteLine();
+                Console.Clear();
                 break;
                 
                 default:
                 Console.WriteLine("Syntax Error!");
+                Console.WriteLine("Wiki:");
                 break;
           }
         
-        Console.Clear();
         Console.WriteLine("Weisen die Glasteile Risse auf? (Hinteres Glas, Kameraobjektiv)");
         string glas = Console.ReadLine();
         
@@ -302,18 +345,20 @@ public class App
                 case "Hinteres Glas":
                 case "1":
                      
-                 wert = 0.7 * wert; // Wert Ungenau!
+                 wert = 0.7 * wert;
+                 Console.WriteLine("Wiki:");
                  break;
                      
              case "Kameraobjektiv":
              case "2":
                      
-             Console.WriteLine();
-             wert = 0.8 * wert;
+             Console.Clear();
+             wert = 0.6 * wert;
              break;
                      
             default:
             Console.WriteLine("Syntax Error!");
+            Console.WriteLine("Wiki:");
             break; 
           }
            break;
@@ -321,15 +366,15 @@ public class App
             case "Nein":
             case "nein":
                 
-            Console.WriteLine("");
+            Console.Clear();
             break;
                 
             default:
                 
                 Console.WriteLine("Syntax Error!");
+                Console.WriteLine("Wiki:");
                 break;
         }
-           Console.Clear();
            Console.WriteLine("Funktioniert der Fingerabdrucksensor oder die Gesichtserkennung?");
            Console.WriteLine("Optionen: Ja, nein");
            string sensor = Console.ReadLine();
@@ -338,22 +383,22 @@ public class App
            {
                case "Ja":
                case "ja":
-               Console.WriteLine();
+               Console.Clear();
                break;
                    
                case "Nein": 
                case "nein":
                    
-               wert = 0.65 * wert;
-               Console.WriteLine();
+               wert = 0.68 * wert;
+               Console.Clear();
                break;
                    
                default:
                Console.WriteLine("Syntax Error!");
+               Console.WriteLine("Wiki:");
                break;
            }
         
-       Console.Clear();
        Console.WriteLine("---------------------------------------------------------------------------------------------------------------");
        Console.WriteLine("Analyse für " + handy + " !");
        Console.WriteLine("Der wert beträgt " + wert + " Euro");
