@@ -22,7 +22,7 @@ public class App
                 wert = 15;
                 break;
                 
-            case "iPhone 3GS"
+            case "iPhone 3GS":
             case "iPhone 3gs":
             case "iPhone 3G S":
                
