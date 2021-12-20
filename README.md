@@ -15,14 +15,15 @@
 - [X] Code fertigstellen
 - [X] Bessere Analyse am Ende
 - [X] Code Cleenup
-- [ ] Mehrere Faktoren und mehr switch cases (Work-In-Progress)
+- [X] Mehrere Faktoren und mehr switch cases (Work-In-Progress)
 - [X] Wiki
+- [ ] UI (User Interface)
 - [ ] Linux Support (villeicht)
 - [ ] Xamarin (iOS, Android, Mac, Windows) (Work-In-Progress)
 
 ## Release?
 
-**Die Version 0.0.3 ist nun verfügbar!**
+**Die Version 0.0.4 ist nun verfügbar!**
 
 Alle Fearures aus der To Do werden erst mit der 1.0.0 Vollsersion verfügbar sein, der Release Termin ist noch unbekannt.
 
