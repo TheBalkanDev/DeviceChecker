@@ -140,6 +140,26 @@ public class App
                 wert = 187;
                 Console.Clear();
                 break;
+                
+            case "iPhone XS":
+            case "iPhone xs":
+            case "iPhone X S":
+            case "iPhone 10S":
+            case "iPhone 10s":
+                
+                wert = 295;
+                Console.Clear();
+                break;
+                
+            case "iPhone XR":
+            case "iPhone xr":
+            case "iPhone 10R":
+            case "iPhoneXR":
+                
+                wert = 245;
+                Console.Clear();
+                break;
+                
                
             default:
                 Console.WriteLine("Syntax Error!");
