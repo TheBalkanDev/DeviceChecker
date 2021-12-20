@@ -160,6 +160,29 @@ public class App
                 Console.Clear();
                 break;
                 
+            case "iPhone XS Max":
+                
+                wert = 379;
+                Console.Clear();
+                break;
+                
+            case "iPhone 11":
+                
+                wert = 349;
+                Console.Clear();
+                break;
+                
+            case "iPhone 11 Pro":
+                
+                wert = 450;
+                Console.Clear();
+                break;
+                
+             case "iPhone 11 Pro Max":
+                
+                wert = 529;
+                Console.Clear();
+                break;
                
             default:
                 Console.WriteLine("Syntax Error!");
