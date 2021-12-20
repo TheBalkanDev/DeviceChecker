@@ -153,6 +153,13 @@ public class App
         
         switch(speicher)
         {
+         
+        case "8GB":
+        case "8":
+                
+        Console.Clear();
+        break;
+
         case "16":
         case "16GB":
                 
@@ -176,6 +183,13 @@ public class App
         case "128GB":
                 
         wert = wert + 9;
+        Console.Clear();
+        break;
+        
+       case "256":
+       case "256GB":
+                
+        wert = wert + 25;
         Console.Clear();
         break;
                 
