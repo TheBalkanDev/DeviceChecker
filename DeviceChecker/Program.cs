@@ -26,7 +26,7 @@ public class App
                 break;
                 
             case "iPhone 3GS":
-            case "iPhone 3gs":ö
+            case "iPhone 3gs":
             case "iPhone 3G S":
             case "iphone 3GS":
             case "iphone 3gs":
@@ -86,8 +86,8 @@ public class App
                 
             case "iPhone 6":
             case "iPhone6":
-            case "iphone 6"
-            cass "iphone6":
+            case "iphone 6":
+            case "iphone6":
                 
                 wert = 47;
                 Console.Clear();
@@ -123,7 +123,7 @@ public class App
                 break;
                 
             case "iPhone 8":
-            case "iPhone8"
+            case "iPhone8":
             case "iphone 8":
                 
                 wert = 125;
