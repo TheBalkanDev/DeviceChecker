@@ -361,7 +361,7 @@ public class App
                Console.Clear();
                break;
                     
-                case "unter";
+                case "unter":
                 case "2":
                     
                 Console.Clear();
