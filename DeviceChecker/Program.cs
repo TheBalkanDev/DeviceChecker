@@ -6,7 +6,7 @@ public class App
     {
         double wert = 0;
         Console.WriteLine("----------------------------");
-        Console.WriteLine("Willkommen zu DeviceChecker, Version 0.0.1!");
+        Console.WriteLine("Willkommen zu DeviceChecker!");
         Console.WriteLine("----------------------------");
         Console.WriteLine("                            ");
         Console.WriteLine("Welches Smartphone wollen Sie verkaufen?");
@@ -143,7 +143,7 @@ public class App
                
             default:
                 Console.WriteLine("Syntax Error!");
-                Console.WriteLine("Wiki:");
+                Console.WriteLine("Wiki: https://github.com/TheBalkanDev/DeviceChecker/wiki/Syntax-Errors-vermeiden");
                 break;
         }
         
@@ -181,7 +181,7 @@ public class App
                 
        default:
        Console.WriteLine("Syntax Error");
-       Console.WriteLine("Wiki:");
+       Console.WriteLine("Wiki: https://github.com/TheBalkanDev/DeviceChecker/wiki/Syntax-Errors-vermeiden");
        break;         
      }
     
@@ -232,14 +232,14 @@ public class App
                default:
                    
               Console.WriteLine("Syntax Error!");
-              Console.WriteLine("Wiki:");
+              Console.WriteLine("Wiki: https://github.com/TheBalkanDev/DeviceChecker/wiki/Syntax-Errors-vermeiden");
               break;
            }
            break;
            
            default: 
            Console.WriteLine("Syntax Error!");
-           Console.WriteLine("Wiki:");
+           Console.WriteLine("Wiki: https://github.com/TheBalkanDev/DeviceChecker/wiki/Syntax-Errors-vermeiden");
            break;
        }
        
@@ -264,7 +264,7 @@ public class App
                   
             default:
             Console.WriteLine("Syntax Error!");
-            Console.WriteLine("Wiki:");
+            Console.WriteLine("Wiki: https://github.com/TheBalkanDev/DeviceChecker/wiki/Syntax-Errors-vermeiden");
             break;
           }
         
@@ -300,7 +300,7 @@ public class App
            
             default:
             Console.WriteLine("Syntax Error!");
-            Console.WriteLine("Wiki:");
+            Console.WriteLine("Wiki: https://github.com/TheBalkanDev/DeviceChecker/wiki/Syntax-Errors-vermeiden");
             break;
         }
            Console.WriteLine("Ist ihre Akkukapazität unter oder über 500 Ladekyklen bzw. 80%?");
@@ -322,7 +322,7 @@ public class App
                 
                 default:
                 Console.WriteLine("Syntax Error!");
-                Console.WriteLine("Wiki:");
+                Console.WriteLine("Wiki: https://github.com/TheBalkanDev/DeviceChecker/wiki/Syntax-Errors-vermeiden");
                 break;
           }
         
@@ -358,7 +358,7 @@ public class App
                      
             default:
             Console.WriteLine("Syntax Error!");
-            Console.WriteLine("Wiki:");
+            Console.WriteLine("Wiki: https://github.com/TheBalkanDev/DeviceChecker/wiki/Syntax-Errors-vermeiden");
             break; 
           }
            break;
@@ -372,7 +372,7 @@ public class App
             default:
                 
                 Console.WriteLine("Syntax Error!");
-                Console.WriteLine("Wiki:");
+                Console.WriteLine("Wiki: https://github.com/TheBalkanDev/DeviceChecker/wiki/Syntax-Errors-vermeiden");
                 break;
         }
            Console.WriteLine("Funktioniert der Fingerabdrucksensor oder die Gesichtserkennung?");
@@ -395,7 +395,7 @@ public class App
                    
                default:
                Console.WriteLine("Syntax Error!");
-               Console.WriteLine("Wiki:");
+               Console.WriteLine("Wiki: https://github.com/TheBalkanDev/DeviceChecker/wiki/Syntax-Errors-vermeiden");
                break;
            }
         
