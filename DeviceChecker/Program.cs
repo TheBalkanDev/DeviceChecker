@@ -399,6 +399,30 @@ public class App
                break;
            }
         
+       Console.WriteLine("Ist Zuberhör enthalten? (Ladekabel, Netzteil, Hüllen etc.");
+       Console.WriteLine("Optionen: Ja, Nein");
+       Console.WriteLine("Oder: 1, 2");
+        
+       string zuberhoer = Console.ReadLine();
+        
+        switch(zuberhoer)
+        {
+            case "Ja":
+                wert = wert + 3;
+                Console.Clear();
+                break;
+                
+            case "Nein":
+            
+            wert = wert - 3;
+            Console.Clear();
+            break;
+                
+            default:
+                Console.WriteLine("Syntax Error!");
+                Console.WriteLine("Wiki: https://github.com/TheBalkanDev/DeviceChecker/wiki/Syntax-Errors-vermeiden");
+                break;
+        }
        Console.WriteLine("---------------------------------------------------------------------------------------------------------------");
        Console.WriteLine("Analyse für " + handy + " !");
        Console.WriteLine("Der wert beträgt " + wert + " Euro");
