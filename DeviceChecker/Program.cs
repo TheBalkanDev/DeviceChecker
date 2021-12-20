@@ -126,7 +126,7 @@ public class App
             case "iPhone8":
             case "iphone 8":
                 
-                wert = 125;
+                wert = 143;
                 Console.Clear();
                 break;
                
