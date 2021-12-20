@@ -408,11 +408,15 @@ public class App
         switch(zuberhoer)
         {
             case "Ja":
+            case "ja":
+            case "1":
                 wert = wert + 3;
                 Console.Clear();
                 break;
                 
             case "Nein":
+            case "nein":
+            case "2":
             
             Console.Clear();
             break;
@@ -425,18 +429,24 @@ public class App
         
         Console.WriteLine("Ist die Originalverpackung (OVP) noch vorhanden?");
         Console.WriteLine("Optionen: Ja, nein");
+        Console.WriteLine("Oder: 1, 2");
         
         string ovp = Console.ReadLine();
         
         switch(ovp)
         {
             case "Ja":
+            case "ja":
+            case "1":
                 
             wert = wert + 3;
             Console.Clear();
             break;
                 
             case "Nein":
+            case "nein":
+            case "2":
+                
                 Console.Clear();
                 break;
                 
