@@ -328,7 +328,7 @@ public class App
             case "klar zu erkennen":
             case "3":
             
-           wert = 0.77 * wert;
+           wert = 0.78 * wert;
            Console.Clear();
            break;
            
