@@ -367,6 +367,7 @@ public class App
         {
             case "Ja":
             case "ja":
+            case "1":
             
             Console.WriteLine("Ist das Hintere Glas oder das Kameraobjektiv beschädigt?");
             Console.WriteLine("Optionen: Hinteres Glas, Kameraobjektiv");
@@ -399,6 +400,7 @@ public class App
    
             case "Nein":
             case "nein":
+            case "2":
                 
             Console.Clear();
             break;
