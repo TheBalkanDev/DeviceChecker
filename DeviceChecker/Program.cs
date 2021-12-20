@@ -286,7 +286,7 @@ public class App
             case "schwer zu erkennen":
             case "2":
             
-            wert = 0.85 * wert;
+            wert = 0.9 * wert;
             Console.Clear();
             break;
                 
@@ -377,17 +377,22 @@ public class App
         }
            Console.WriteLine("Funktioniert der Fingerabdrucksensor oder die Gesichtserkennung?");
            Console.WriteLine("Optionen: Ja, nein");
+           Console.WriteLine("Oder: 1, 2");
+        
            string sensor = Console.ReadLine();
                 
            switch(sensor)
            {
                case "Ja":
                case "ja":
+               case "1":
+                   
                Console.Clear();
                break;
                    
                case "Nein": 
                case "nein":
+               case "2":
                    
                wert = 0.68 * wert;
                Console.Clear();
@@ -410,6 +415,7 @@ public class App
             case "Ja":
             case "ja":
             case "1":
+                
                 wert = wert + 3;
                 Console.Clear();
                 break;
