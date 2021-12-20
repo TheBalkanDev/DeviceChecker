@@ -221,21 +221,25 @@ public class App
     
      Console.WriteLine("Lässt sich das Gerät einwandfrei nutzen?");
      Console.WriteLine("Optionen: Ja, Nein");
+     Console.WriteLine("Oder: 1, 2");
      string funktion = Console.ReadLine();
 
        switch(funktion)
        {    
            case "Ja":
            case "ja":
+           case "1":
            
            Console.Clear();
            break;
            
            case "Nein":
            case "nein":
+           case "2":
            
            Console.WriteLine("Was für ein defekt hat es?");
            Console.WriteLine("Optionen: Wasserschaden, Sturzschaden, Andere");
+           Console.WriteLine("Oder: 1, 2, 3");
            string defekt = Console.ReadLine();
                
            switch(defekt)
@@ -244,6 +248,7 @@ public class App
                case "wasserschaden":
                case "Wasser schaden":
                case "Wasser Schaden":
+               case "1":
                    
                    wert = 0.4 * wert;
                    Console.Clear();
@@ -251,6 +256,7 @@ public class App
                    
                case "Sturzschaden":
                case "sturzschaden":
+               case "2":
                    
                    wert = 0.7 * wert;
                    Console.Clear();
@@ -258,6 +264,7 @@ public class App
                    
                case "Andere":
                case "andere":
+               case "3":
                  
                wert = 0.5 * wert;
                Console.Clear();
@@ -279,18 +286,21 @@ public class App
        
          Console.WriteLine("Ist der Bildschirm heil und ohne Schäden?");
          Console.WriteLine("Option: Ja oder nein");
+         Console.WriteLine("Oder: 1, 2");
          string display = Console.ReadLine();
              
           switch(display)
           {
               case "Ja":
               case "ja":
+              case "1":
                   
               Console.Clear();
               break;
                   
               case "Nein":
               case "nein":
+              case "2":
               
              wert = 0.75 * wert;
              Console.Clear();
@@ -339,17 +349,20 @@ public class App
         }
            Console.WriteLine("Ist ihre Akkukapazität unter oder über 500 Ladekyklen bzw. 80%?");
            Console.WriteLine("Optionen: über, unter");
+           Console.WriteLine("Oder: 1, 2");
            string akku = Console.ReadLine();
                 
             switch(akku)
           {
                 case "über":
+                case "1":
                     
                wert = wert + 3;
                Console.Clear();
                break;
                     
-                case "unter":
+                case "unter";
+                case "2":
                     
                 Console.Clear();
                 break;
@@ -361,6 +374,8 @@ public class App
           }
         
         Console.WriteLine("Weisen die Glasteile Risse auf? (Hinteres Glas, Kameraobjektiv)");
+        Console.WriteLine("Optionen: Ja, nein");
+        Console.WriteLine("Oder: 1, 2");
         string glas = Console.ReadLine();
         
         switch(glas)
