@@ -414,7 +414,6 @@ public class App
                 
             case "Nein":
             
-            wert = wert - 3;
             Console.Clear();
             break;
                 
@@ -423,6 +422,30 @@ public class App
                 Console.WriteLine("Wiki: https://github.com/TheBalkanDev/DeviceChecker/wiki/Syntax-Errors-vermeiden");
                 break;
         }
+        
+        Console.WriteLine("Ist die Originalverpackung (OVP) noch vorhanden?");
+        Console.WriteLine("Optionen: Ja, nein");
+        
+        string ovp = Console.ReadLine();
+        
+        switch(ovp)
+        {
+            case "Ja":
+                
+            wert = wert + 3;
+            Console.Clear;
+            break;
+                
+            case "Nein":
+                Console.Clear();
+                break;
+                
+            default:
+                Console.WriteLine("Syntax Error!");
+                Console.WriteLine("Wiki: https://github.com/TheBalkanDev/DeviceChecker/wiki/Syntax-Errors-vermeiden");
+                break;
+        }
+        
        Console.WriteLine("---------------------------------------------------------------------------------------------------------------");
        Console.WriteLine("Analyse für " + handy + " !");
        Console.WriteLine("Der wert beträgt " + wert + " Euro");
