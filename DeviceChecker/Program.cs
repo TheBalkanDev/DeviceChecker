@@ -433,7 +433,7 @@ public class App
             case "Ja":
                 
             wert = wert + 3;
-            Console.Clear;
+            Console.Clear();
             break;
                 
             case "Nein":
