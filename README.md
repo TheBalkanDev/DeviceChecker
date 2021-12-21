@@ -25,6 +25,8 @@
 
 **Die Version 0.0.4 ist nun verfügbar!**
 
+**Die Version 0.0.5 kommt mit Support für mehr Geräte!**
+
 Alle Fearures aus der To Do werden erst mit der 1.0.0 Vollsersion verfügbar sein, der Release Termin ist noch unbekannt.
 
 ## Welche Geräte werden Unterstützt (Preisanalyse)
