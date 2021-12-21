@@ -147,7 +147,7 @@ public class App
             case "iPhone 10S":
             case "iPhone 10s":
                 
-                wert = 295;
+                wert = 280;
                 Console.Clear();
                 break;
                 
@@ -156,13 +156,13 @@ public class App
             case "iPhone 10R":
             case "iPhoneXR":
                 
-                wert = 245;
+                wert = 230;
                 Console.Clear();
                 break;
                 
             case "iPhone XS Max":
                 
-                wert = 379;
+                wert = 355;
                 Console.Clear();
                 break;
                 
