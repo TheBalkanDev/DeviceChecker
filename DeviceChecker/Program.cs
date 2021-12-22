@@ -183,7 +183,27 @@ public class App
                 wert = 529;
                 Console.Clear();
                 break;
-               
+                
+            case "iPhone 12 Mini":
+                
+                wert = 495;
+                break;
+                
+            case "iPhone 12":
+                
+                wert = 620;
+                break;
+                
+            case "iPhone 12 Pro":
+                
+                wert = 770;
+                break;
+                
+            case "iPhone 12 Pro Max":
+                
+                wert = 870;
+                break;
+                
             default:
                 Console.WriteLine("Syntax Error!");
                 Console.WriteLine("Wiki: https://github.com/TheBalkanDev/DeviceChecker/wiki/Syntax-Errors-vermeiden");
