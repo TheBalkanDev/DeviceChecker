@@ -210,6 +210,29 @@ public class App
                 Console.WriteLine("Syntax Error!");
                 Console.WriteLine("Wiki: https://github.com/TheBalkanDev/DeviceChecker/wiki/Syntax-Errors-vermeiden");
                 break;
+                
+                // Samsung
+                
+                case "Galaxy Mini 2":
+                case "Samsung Galaxy Mini 2":
+                case "Samsung Mini 2":
+                
+                wert = 15;
+                break;
+                
+                case "Galaxy S2":
+                case "Galaxy S 2":
+                case "Samsung Galaxy S2":
+                
+                wert = 21;
+                break;
+                
+                case "Galaxy S2 Plus":
+                case "Samsung Galaxy S2 Plus":
+                case "Galaxy s2 Plus":
+                
+                wert = 21;
+                break;
         }
         
         Console.WriteLine("Wie viel Speicherplatz hat das Gerät?");
