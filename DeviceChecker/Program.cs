@@ -13,6 +13,7 @@ public class App
         Console.WriteLine("                            ");
         Console.WriteLine("Welches Smartphone wollen Sie verkaufen?");
         Console.WriteLine("Zum Beispiel: iPhone 6");
+        Console.WriteLine("Eine Liste aller Geräte findest du hier: https://github.com/TheBalkanDev/DeviceChecker/wiki/Syntax-Errors-vermeiden !");
         string handy = Console.ReadLine();
         
         switch(handy)
