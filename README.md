@@ -32,7 +32,7 @@ Alle Fearures aus der To Do werden erst mit der 1.0.0 Vollsersion verfügbar sei
 ## Welche Geräte werden Unterstützt (Preisanalyse)
 - [X] Apple iPhones
 - [ ] Apple iPads (villeicht)
-- [ ] Samsung Galaxy S, A, J und M Modelle
+- [X] Samsung Galaxy S, A, J und M Modelle (WIP)
 - [ ] Samsung Note, Fold und Flip Modelle
 - [ ] Huawei P und Mate Modelle
 - [ ] One Plus Modells 
