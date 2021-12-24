@@ -234,6 +234,35 @@ public class App
                 
                 wert = 21;
                 break;
+                
+            case "Samsung S3":
+            case "Samsung Galaxy S3":
+            case "Galaxy S3":
+            
+                wert = 20;
+                break;
+                
+            case "Galaxy S3 Mini":
+            case "Samsung Galaxy S3 Mini":
+            case "Samsung S3 Mini":
+                
+                wert = 15;
+                break;
+                
+            case "Samsung Galaxy S3 Neo":
+            case "Galaxy S3 Neo":
+            case "Samsung S3 Neo":
+                
+                wert = 20;
+                break;
+                
+            case "Samsung Galaxy S3 Mini VE":
+            case "Galaxy Galaxy S3 Mini ve":
+            case "Samsung S3 Mini VE":
+            case "Galaxy S3 Mini VE":
+                
+                wert = 20;
+                break;
         }
         
         Console.WriteLine("Wie viel Speicherplatz hat das Gerät?");
