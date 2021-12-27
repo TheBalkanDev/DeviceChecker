@@ -616,5 +616,10 @@ public class App
        Console.WriteLine("Der wert beträgt " + wert + " Euro");
        Console.WriteLine("Stand Dez. 2021, werte können stark schwanken, wir versuchen immer mit den neusten Preisen Up to Date zu sein!");
        Console.WriteLine("--------------------------------------------------------------------------------------------------------------");
-          }
+    }
+    
+    static void P(string imput)
+    {
+      Console.WrireLine(imput);
+    }
         }
