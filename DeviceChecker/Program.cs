@@ -54,7 +54,7 @@ public class App
             case "iphone 4s":
             case "iphone 4S":
                
-                wert = 23;
+                wert = 20;
                 Console.Clear();
                 break;
                 
@@ -218,21 +218,21 @@ public class App
                 case "Samsung Galaxy Mini 2":
                 case "Samsung Mini 2":
                 
-                wert = 15;
+                wert = 12;
                 break;
                 
                 case "Galaxy S2":
                 case "Galaxy S 2":
                 case "Samsung Galaxy S2":
                 
-                wert = 21;
+                wert = 15;
                 break;
                 
                 case "Galaxy S2 Plus":
                 case "Samsung Galaxy S2 Plus":
                 case "Galaxy s2 Plus":
                 
-                wert = 21;
+                wert = 16;
                 break;
                 
             case "Samsung S3":
