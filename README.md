@@ -19,13 +19,14 @@
 - [X] Wiki
 - [ ] UI (User Interface)
 - [ ] Linux Support (villeicht)
-- [ ] Xamarin (iOS, Android, Mac, Windows) (Work-In-Progress)
+- [ ] Xamarin (iOS, Android, Mac, Windows) (20% Fertig)
+- [ ] Version für andere Länder
 
 ## Release?
 
-**Die Version 0.0.4 ist nun verfügbar!**
+**Die Version 0.0.6 ist nun verfügbar!**
 
-**Die Version 0.0.5 kommt mit Support für mehr Geräte!**
+**Die Version 0.0.7 kommt mit Support für mehr Geräte!**
 
 Alle Fearures aus der To Do werden erst mit der 1.0.0 Vollsersion verfügbar sein, der Release Termin ist noch unbekannt.
 
