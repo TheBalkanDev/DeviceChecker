@@ -618,8 +618,8 @@ public class App
        Console.WriteLine("--------------------------------------------------------------------------------------------------------------");
     }
     
-    static void P(string imput)
+    static void P(string print)
     {
-      Console.WrireLine(imput);
+      Console.WriteLine(print);
     }
         }
