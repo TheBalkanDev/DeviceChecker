@@ -12,15 +12,13 @@
 - [X] Zukunftssicher
 
 ## To Do
-- [X] Code fertigstellen
+- [ ] Code fertigstellen
 - [X] Bessere Analyse am Ende
 - [X] Code Cleenup
 - [X] Mehrere Faktoren und mehr switch cases (Work-In-Progress)
 - [X] Wiki
-- [ ] UI (User Interface)
-- [ ] Linux Support (villeicht)
-- [ ] Xamarin (iOS, Android, Mac, Windows) (20% Fertig)
-- [ ] Version für andere Länder
+- [ ] WebUI (User Interface) 
+- [ ] Englische Version
 
 ## Release?
 
