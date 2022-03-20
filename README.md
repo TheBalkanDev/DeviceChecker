@@ -4,11 +4,11 @@
 
 ## Vorteile
 
-- [X] Exakte Mathematische Berechnung
+- [X] Exakte Berechnung
 - [X] Einfach & Intuitiv
 - [X] Preise Up To Date
 - [X] Open Source
-- [X] Dev Friendly
+- [X] Developer Friendly
 - [X] Zukunftssicher
 
 ## To Do
@@ -18,6 +18,8 @@
 - [X] Mehrere Faktoren und mehr switch cases (Work-In-Progress)
 - [X] Wiki
 - [ ] WebUI (User Interface) 
+- [ ] Desktop App (Windows, Linux, macOS)
+- [ ] Mobile App (Android, iOS)
 - [ ] Englische Version
 
 ## Release?
