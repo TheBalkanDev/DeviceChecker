@@ -6,14 +6,15 @@
 
 - [X] Exakte Berechnung
 - [X] Einfach & Intuitiv
-- [X] Preise Up To Date
+- [X] Preise Up To Date (bald mit JSON Database)
 - [X] Open Source
 - [X] Developer Friendly
 - [X] Zukunftssicher
 
 ## To Do
-- [ ] Komplett neuer Code
+- [ ] Komplett neuer Code (WIP)
 - [ ] Webseite 
+- [ ] Preisvergleich (WIP)
 - [ ] Desktop App (Windows, Linux, macOS)
 - [ ] Mobile App (Android, iOS)
 - [ ] Englische Version
