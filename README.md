@@ -6,14 +6,14 @@
 
 - [X] Exakte Berechnung
 - [X] Einfach & Intuitiv
-- [X] Preise Up To Date (bald mit JSON Database)
+- [X] Preise Up To Date (bald mit YAML Database)
 - [X] Open Source
 - [X] Developer Friendly
 - [X] Zukunftssicher
 
 ## To Do
 - [ ] Komplett neuer Code (WIP)
-- [ ] Webseite 
+- [ ] Webseite (Coming soon...)
 - [ ] Preisvergleich (WIP)
 - [ ] Desktop App (Windows, Linux, macOS)
 - [ ] Mobile App (Android, iOS)
@@ -21,7 +21,7 @@
 
 ## Release?
 
-Der Release Termin ist noch unbekannt.
+Die Version 1.0.0 BETA-1 erscheint am 28.04.2022!
 
 ## Welche Geräte werden Unterstützt (Preisanalyse)
 - [X] Apple iPhones
